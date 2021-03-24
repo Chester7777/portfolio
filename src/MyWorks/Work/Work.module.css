@@ -19,6 +19,12 @@
 }
 
 .link {
-    background-color: darkgrey;
+    background-color: red;
     opacity: 0.5;
+    font-weight: bold;
+    color: black;
+}
+.description {
+    padding: 20px;
+    background-color: cornsilk;
 }
