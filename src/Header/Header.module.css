@@ -3,6 +3,6 @@
     justify-content: flex-end;
     align-items: center;
     flex-wrap: wrap;
-    height: 80px;
+    min-height: 80px;
     background-color: skyblue;
 }

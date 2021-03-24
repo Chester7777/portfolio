@@ -1,7 +1,7 @@
 .mainBlock {
     border: 1px solid;
     background-color: #b49bbe;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
