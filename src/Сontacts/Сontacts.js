@@ -13,7 +13,7 @@ const Сontacts = () => {
                 <input type="text"/>
                 <textarea name="" id="" cols="30" rows="10"></textarea>
             </form>
-            <button>SEND</button>
+            <button type="submit" className={s.submitBtn}>SEND</button>
         </div>
     </div>
 }

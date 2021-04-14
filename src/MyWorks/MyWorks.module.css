@@ -1,12 +1,43 @@
 .worksBlock {
     min-height: 100vh;
-    background-color: mediumpurple;
+    background-color:  #222 !important;
 }
 
 .title {
-    background-color: lightsteelblue;
+    /*position: relative;*/
+    margin: 0 0 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #fff;
+    box-sizing: border-box;
+    line-height: 1.2;
+
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
 }
 
+.title h2 {
+    margin: 0;
+
+}
+/*h2::before {*/
+/*    content: "";*/
+/*    display: block;*/
+/*    position: absolute;*/
+/*    left: -2px;*/
+/*    bottom: -8px;*/
+/*    height: 4px;*/
+/*    width: 1.6em;*/
+/*    background-color: #09aaaa;*/
+/*}*/
+
+.primaryColor {
+    color: #09aaaa !important;
+}
 .worksContainer {
     display: flex;
     align-items: center;
@@ -21,4 +52,10 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+@media screen and (max-width: 630px) {
+    .works {
+        justify-content: center;
+    }
 }

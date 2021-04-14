@@ -24,26 +24,10 @@
     justify-content: space-between;
 }
 
-.vkontacte {
+.socialIcon {
     background-color: darkgrey;
-    width: 100px;
+    width: 50px;
+    height: 50px;
 
 }
 
-.insta {
-    background-color: darkgrey;
-    width: 100px;
-
-}
-
-.twit {
-    background-color: darkgrey;
-    width: 100px;
-
-}
-
-.telegram {
-    background-color: darkgrey;
-    width: 100px;
-
-}

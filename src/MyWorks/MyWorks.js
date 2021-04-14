@@ -11,7 +11,13 @@ let MyWorks = (props) => {
     return (
         <div className={s.worksBlock}>
             <div className={`${styleContainer.container} ${s.worksContainer}`}>
-                <h2 className={s.title}>My works</h2>
+                <div className={s.title}>
+                    <h2>
+                        <span className={s.primaryColor}>My</span>
+                        {/*works*/}
+                        Experience
+                    </h2>
+                </div>
                 <div className={s.works}>
                     <Work title={"TODOLIST"} description={skillText1}/>
                     <Work title={"SOCIAL NETWORK"} description={skillText2}/>

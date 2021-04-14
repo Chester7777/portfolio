@@ -22,3 +22,12 @@
     flex-direction: column;
     justify-content: space-around;
 }
+
+/*.form input .form textarea {*/
+/*    width: 100%;*/
+/*}*/
+
+.submitBtn {
+    padding: 10px 20px;
+    background-color: orange;
+}
