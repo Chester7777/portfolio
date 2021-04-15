@@ -2,6 +2,7 @@ import React from "react"
 import s from "./Skills.module.css"
 import styleContainer from "../Common/Styles/StyleContainer.module.css"
 import Skill from "./Skill/Skill";
+import TitleMy from "../Common/Components/Title/Title";
 
 let Skills = () => {
 let skillText1 = "actions это константы, описывающие событие. Обычно это просто строка с названием описывающее событие."
@@ -10,7 +11,7 @@ let skillText3 = "actions это константы, описывающие со
     return (
         <div className={s.skillsBlock}>
             <div className={`${styleContainer.container} ${s.skillsContainer}`}>
-                <h2 className={s.title}>Skills</h2>
+                <TitleMy text={"Skills"} textMy={"My"}/>
                 <div className={s.skills}>
                     <Skill title={"TS"} description={skillText1}/>
                     <Skill title={"CSS"} description={skillText2}/>
