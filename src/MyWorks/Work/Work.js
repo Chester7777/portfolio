@@ -6,12 +6,13 @@ let Work = (props) => {
 
     return (
         <div className={s.work}>
-            <div className={s.icon}>
+            <div className={s.icon} style={props.style}>
                 <a href="" className={s.link}>LOOK</a>
             </div>
-            <h3 className={s.title}>{props.title}</h3>
-            <span className={s.description}>{props.description}</span>
-
+            <div className={s.workInfo}>
+                <h3 className={s.workTitle}>{props.title}</h3>
+                <span className={s.description}>{props.description}</span>
+            </div>
         </div>
     )
 }

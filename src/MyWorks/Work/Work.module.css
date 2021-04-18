@@ -1,11 +1,11 @@
 .work {
-    width: 250px;
-    background-color: orange;
+    width: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     flex-wrap: wrap;
+    border: 3px solid rgba(255, 255, 255, 0.1);
 }
 
 .icon {
@@ -14,18 +14,74 @@
     justify-content: center;
     min-height: 150px;
     width: 100%;
-    background-image: url("https://vuzopedia.ru/storage/app/uploads/public/5b3/8b0/bf6/5b38b0bf60a2f780799494.jpg");
     background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.icon::before {
+    position: absolute;
+    content: "";
+    background-color: black;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0.6;
 }
 
 .link {
-    background-color: red;
+    font-family: 'Poppins', sans-serif;
+    background-color: #333;
     opacity: 0.5;
     font-weight: bold;
-    color: black;
+    color: white;
+    padding: 10px 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.workInfo {
+    background-color: #222;
+
+    padding: 20px;
+
+}
+
+.workTitle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6em;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+    font-weight: 500;
+    line-height: 1.2;
+
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+    margin-top: 0.5em;
+    color: #ccc;
+    -webkit-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
 }
 
 .description {
-    padding: 20px;
-    background-color: cornsilk;
+    font-family: 'Poppins', sans-serif;
+    /*color: #ffffff66;*/
+    color: #6c757d;
+
+    margin-top: 0;
+    margin-bottom: 1rem;
+
+    box-sizing: border-box;
+
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
 }
