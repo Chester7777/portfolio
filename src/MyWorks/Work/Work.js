@@ -1,5 +1,5 @@
 import React from "react"
-import s from "../Work/Work.module.css"
+import s from "../Work/Work.module.scss"
 
 
 let Work = (props) => {
