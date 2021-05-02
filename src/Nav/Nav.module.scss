@@ -1,0 +1,14 @@
+@import "../Common/Styles/SASS/Variables";
+
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border: 1px solid $textColor_Span;
+  width: 400px;
+
+  a {
+    color: $textColor_h3;
+  }
+}

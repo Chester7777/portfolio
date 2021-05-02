@@ -1,0 +1,24 @@
+@import "./src/Common/Styles/SASS/Variables";
+
+
+.skill {
+  width: 250px;
+  background-color: $backgroundColor_Second;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+
+  .icon {
+    height: 60px;
+    width: 60px;
+    background-color: gray;
+  }
+
+  .description {
+    padding: 20px;
+    background-color: cornsilk;
+  }
+}
+

@@ -1,8 +1,11 @@
+@import "../Common/Styles/SASS/Variables.scss";
+
+
 .header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     flex-wrap: wrap;
     min-height: 80px;
-    background-color: skyblue;
+    background-color: $backgroundColor_Primary;
 }

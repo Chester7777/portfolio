@@ -1,3 +1,6 @@
+@import "../../Common/Styles/SASS/Variables";
+
+
 .work {
   width: 350px;
   display: flex;
@@ -6,6 +9,7 @@
   text-align: center;
   flex-wrap: wrap;
   border: 3px solid rgba(255, 255, 255, 0.1);
+  margin-top: 30px;
 
   .icon {
     display: flex;
@@ -41,7 +45,7 @@
   }
 
   .workInfo {
-    background-color: #222;
+    background-color: $backgroundColor_Primary;
     padding: 20px;
 
     .workTitle {
@@ -57,15 +61,14 @@
       margin-inline-start: 0px;
       margin-inline-end: 0px;
       margin-top: 0.5em;
-      color: #ccc;
+      color: $textColor_h3;
       -webkit-transition: all .1s ease-in-out;
       transition: all .1s ease-in-out;
     }
 
     .description {
       font-family: 'Poppins', sans-serif;
-      /*color: #ffffff66;*/
-      color: #6c757d;
+      color: $textColor_Span;
       margin-top: 0;
       margin-bottom: 1rem;
       box-sizing: border-box;

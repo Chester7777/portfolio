@@ -1,5 +1,5 @@
 import React from "react";
-import s from "./Сontacts.module.css"
+import s from "./Сontacts.module.scss"
 import styleContainer from "../Common/Styles/StyleContainer.module.css";
 import TitleMe from "../Common/Components/Title/TitleMe";
 

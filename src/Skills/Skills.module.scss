@@ -1,36 +1,31 @@
 @import "../Common/Styles/SASS/Variables";
 
 
-.worksBlock {
+.skillsBlock {
   min-height: 100vh;
   background-color: $backgroundColor_Primary;
 
-
-  .worksContainer {
-    background-color: rgba(255,255,255,0.1);
-    //box-shadow: inset 0em 0em 30em rgb(30 30 30 / 95%);
-
+  .skillsContainer {
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: flex-start;
-    flex-wrap: wrap;
-    padding: 40px;
 
-    .works {
+    .skills {
+      border: 1px solid;
       width: 100%;
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
-      margin-top: 30px;
       @media screen and (max-width: 630px) {
         justify-content: center;
+      }
+
+      .title {
+        background-color: lightsteelblue;
       }
     }
   }
 }
-
-
-
 
 

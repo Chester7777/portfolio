@@ -1,5 +1,5 @@
 import React from "react"
-import s from "../Skill/Skill.module.css"
+import s from "./Skill.module.scss"
 
 
 let Skill = (props) => {

@@ -5,6 +5,7 @@ import Work from "./Work/Work";
 import TitleMy from "../Common/Components/Title/Title";
 import todoImage from "../assets/image/todoImage.jpg";
 import socialNetworkImage from "../assets/image/socialNetwork.jpg";
+// import "./SectionWork.css";
 
 let MyWorks = (props) => {
 
@@ -20,15 +21,69 @@ let MyWorks = (props) => {
 
 
     return (
+
         <div className={s.worksBlock}>
             <div className={`${styleContainer.container} ${s.worksContainer}`}>
                 <TitleMy text={" Experience"} textMy={"My"}/>
                 <div className={s.works}>
                     <Work style={todo} title={"TODOLIST"} description={skillText1}/>
                     <Work style={socialNetwork} title={"SOCIAL NETWORK"} description={skillText2}/>
+                    <Work style={socialNetwork} title={"CONVERTER"} description={skillText2}/>
+                    <Work style={socialNetwork} title={"TODOLIST 2"} description={skillText2}/>
+                    <Work style={socialNetwork} title={"PORTFOLIO"} description={skillText2}/>
+                    <Work style={socialNetwork} title={"CARDS"} description={skillText2}/>
                 </div>
             </div>
         </div>
+
+        //Второй вариант блока
+        // <section id="resume" className="section experience">
+        //     <div className="container">
+        //         <h2><span className="primary-color">My</span> Experience</h2>
+        //         <ul className="list">
+        //             <li className="in-view">
+        //                 <div>
+        //                     <h3>GRAPHICS DESIGNER</h3>
+        //                     <time dateTime="2020-02-14">14 Aug 2020</time>
+        //                     <p>It is a long established fact that a reader will be distracted by the readable content of
+        //                         a page when looking at its layout.</p>
+        //                 </div>
+        //             </li>
+        //             <li className="in-view">
+        //                 <div>
+        //                     <h3>UX/UI DESIGNER</h3>
+        //                     <time dateTime="2020-02-14">14 Aug 2020</time>
+        //                     <p>It is a long established fact that a reader will be distracted by the readable content of
+        //                         a page when looking at its layout.</p>
+        //                 </div>
+        //             </li>
+        //             <li className="in-view">
+        //                 <div>
+        //                     <h3>WEB DEVELOPER</h3>
+        //                     <time dateTime="2020-02-14">14 Aug 2020</time>
+        //                     <p>It is a long established fact that a reader will be distracted by the readable content of
+        //                         a page when looking at its layout.</p>
+        //                 </div>
+        //             </li>
+        //             <li className="in-view">
+        //                 <div>
+        //                     <h3>PHOTOGRAPHER</h3>
+        //                     <time dateTime="2020-02-14">14 Aug 2020</time>
+        //                     <p>It is a long established fact that a reader will be distracted by the readable content of
+        //                         a page when looking at its layout.</p>
+        //                 </div>
+        //             </li>
+        //             <li className="in-view">
+        //                 <div>
+        //                     <h3>PHOTOGRAPHER</h3>
+        //                     <time dateTime="2020-02-14">14 Aug 2020</time>
+        //                     <p>It is a long established fact that a reader will be distracted by the readable content of
+        //                         a page when looking at its layout.</p>
+        //                 </div>
+        //             </li>
+        //         </ul>
+        //     </div>
+        // </section>
     )
 }
 

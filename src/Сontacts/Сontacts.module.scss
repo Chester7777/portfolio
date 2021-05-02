@@ -1,0 +1,38 @@
+@import "./src/Common/Styles/SASS/Variables";
+
+
+.contactsBlock {
+  min-height: 100vh;
+  border: 1px solid;
+  background-color: $backgroundColor_Second;
+
+  .contactsContainer {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    .title {
+      background-color: darkgrey;
+    }
+
+    .form {
+      border: 2px solid;
+      width: 30%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+    }
+
+    .submitBtn {
+      padding: 10px 20px;
+      background-color: orange;
+    }
+  }
+}
+
+
+/*.form input .form textarea {*/
+/*    width: 100%;*/
+/*}*/
+

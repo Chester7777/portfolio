@@ -1,0 +1,19 @@
+@import "../Common/Styles/SASS/Variables";
+
+
+.teleworkBlock {
+  border: 1px solid;
+  background-color: $backgroundColor_Primary;
+  min-height: 100vh;
+
+  .teleworkContainer {
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 30%;
+  }
+}
+
+
+
+
