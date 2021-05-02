@@ -1,4 +1,5 @@
 @import "../../Common/Styles/SASS/Variables";
+@import "../../Common/Styles/SASS/Mixins";
 
 
 .work {
@@ -52,15 +53,10 @@
       font-family: 'Poppins', sans-serif;
       font-size: 1.6em;
       letter-spacing: 1px;
-      margin-bottom: 12px;
       font-weight: 500;
       line-height: 1.2;
       display: block;
-      margin-block-start: 1em;
-      margin-block-end: 1em;
-      margin-inline-start: 0px;
-      margin-inline-end: 0px;
-      margin-top: 0.5em;
+      @include margin(0.5em, 12px);
       color: $textColor_h3;
       -webkit-transition: all .1s ease-in-out;
       transition: all .1s ease-in-out;
@@ -69,14 +65,10 @@
     .description {
       font-family: 'Poppins', sans-serif;
       color: $textColor_Span;
-      margin-top: 0;
-      margin-bottom: 1rem;
       box-sizing: border-box;
       display: block;
-      margin-block-start: 1em;
-      margin-block-end: 1em;
-      margin-inline-start: 0px;
-      margin-inline-end: 0px;
+      @include margin(0em, 1rem);
+
     }
   }
 }

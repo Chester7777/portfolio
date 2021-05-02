@@ -9,3 +9,86 @@
     min-height: 80px;
     background-color: $backgroundColor_Primary;
 }
+
+////01
+//@media(max-width: 767.98px)
+//{
+//    header {
+//        .menu {
+//            margin: 0.6em -1em 0;
+//
+//            ul.navbar-nav {
+//                transform: none !important;
+//
+//                > .nav-item {
+//                    margin-left: inherit;
+//                    transform: none !important;
+//                }
+//            }
+//        }
+//
+//        .about .details > p {
+//            padding-left: 0;
+//        }
+//
+//        .experience ul.list.list.list > li {
+//            margin-left: 0;
+//            margin-right: 30px;
+//
+//            > div {
+//                transform: translate3d(-200px, 0, 0);
+//
+//                &::before {
+//                    right: -15px;
+//                    left: auto;
+//                    border-width: 8px 0 8px 16px;
+//                    border-color: transparent transparent transparent $dark1;
+//                }
+//            }
+//
+//            > div {
+//                right: 45px;
+//            }
+//        }
+//    }
+//}
+//
+//
+////02. medium devices
+//
+//@media(min-width: 768px) and (max-width: 991.98px)
+//{
+//    body.rtl {
+//        .about .details > p {
+//            padding-left: 5%;
+//        }
+//
+//        .experience ul.list.list.list > li {
+//            margin-left: 0;
+//            margin-right: 30px;
+//
+//            > div {
+//                transform: translate3d(-200px, 0, 0);
+//
+//                &::before {
+//                    right: -15px;
+//                    left: auto;
+//                    border-width: 8px 0 8px 16px;
+//                    border-color: transparent transparent transparent $dark1;
+//                }
+//            }
+//
+//            > div {
+//                right: 45px;
+//            }
+//        }
+//    }
+//}
+//
+////03. large devices
+//@media(min-width: 992px) and (max-width: 1199.98px)
+//{
+//    body.rtl .about_us .details > p {
+//        padding-left: 20%;
+//    }
+//}
