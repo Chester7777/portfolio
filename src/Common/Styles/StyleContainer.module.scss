@@ -1,3 +1,4 @@
+@import "../Styles/SASS/Variables.scss";
 * {
     box-sizing: border-box;
 }
@@ -8,8 +9,9 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: 1px solid;
     height: 100%;
     width: 80%;
     flex-wrap: wrap;
+    background-color: $transparent_Background_Color;
+
 }

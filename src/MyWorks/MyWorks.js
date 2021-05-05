@@ -1,5 +1,5 @@
 import React from "react";
-import styleContainer from "../Common/Styles/StyleContainer.module.css";
+import styleContainer from "../Common/Styles/StyleContainer.module.scss";
 import s from "./MyWorks.module.scss";
 import Work from "./Work/Work";
 import TitleMy from "../Common/Components/Title/Title";
@@ -26,12 +26,12 @@ let MyWorks = (props) => {
             <div className={`${styleContainer.container} ${s.worksContainer}`}>
                 <TitleMy text={" Experience"} textMy={"My"}/>
                 <div className={s.works}>
-                    <Work style={todo} title={"TODOLIST"} description={skillText1}/>
-                    <Work style={socialNetwork} title={"SOCIAL NETWORK"} description={skillText2}/>
-                    <Work style={socialNetwork} title={"CONVERTER"} description={skillText2}/>
-                    <Work style={socialNetwork} title={"TODOLIST 2"} description={skillText2}/>
-                    <Work style={socialNetwork} title={"PORTFOLIO"} description={skillText2}/>
-                    <Work style={socialNetwork} title={"CARDS"} description={skillText2}/>
+                    <Work style={todo} title={"TODOLIST"} description={skillText1} href="https://chester7777.github.io/todolist_16/#/login"/>
+                    <Work style={socialNetwork} title={"SOCIAL NETWORK"} description={skillText2} href="https://chester7777.github.io/sn-ts-example/"/>
+                    <Work style={socialNetwork} title={"CONVERTER"} description={skillText2} href=""/>
+                    <Work style={socialNetwork} title={"TODOLIST 2"} description={skillText2} href="https://chester7777.github.io/NewToDoForDay_JS/"/>
+                    <Work style={socialNetwork} title={"PORTFOLIO"} description={skillText2} href="https://chester7777.github.io/portfolio/"/>
+                    <Work style={socialNetwork} title={"CARDS"} description={skillText2} href=""/>
                 </div>
             </div>
         </div>

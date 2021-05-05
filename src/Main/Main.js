@@ -1,6 +1,6 @@
 import React from "react"
 import s from "./Main.module.scss"
-import styleContainer from "../Common/Styles/StyleContainer.module.css"
+import styleContainer from "../Common/Styles/StyleContainer.module.scss"
 
 let Main = () => {
 
@@ -12,9 +12,9 @@ let Main = () => {
                     <h1>I am Evgeny Chausov</h1>
                     <p>Frontend Developer</p>
                 </div>
-                <div className={s.photo}>
+                {/*<div className={s.photo}>*/}
 
-                </div>
+                {/*</div>*/}
             </div>
         </div>
     )

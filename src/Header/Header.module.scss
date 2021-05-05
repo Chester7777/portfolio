@@ -2,12 +2,15 @@
 
 
 .header {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    flex-wrap: wrap;
-    min-height: 80px;
-    background-color: $backgroundColor_Primary;
+  display: flex;
+  position: fixed;
+  right: 0;
+  left: 0;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 80px;
+  background-color: $transparent_Background_Color;
 }
 
 ////01

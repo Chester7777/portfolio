@@ -1,6 +1,6 @@
 import React from "react";
 import s from "./Footer.module.scss"
-import styleContainer from "../Common/Styles/StyleContainer.module.css";
+import styleContainer from "../Common/Styles/StyleContainer.module.scss";
 import {SocialIcon} from "./SocialIcon/SocialIcon";
 
 

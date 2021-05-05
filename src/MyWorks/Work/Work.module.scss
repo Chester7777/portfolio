@@ -1,7 +1,9 @@
 @import "../../Common/Styles/SASS/Variables";
 @import "../../Common/Styles/SASS/Mixins";
 
-
+a {
+  text-decoration: none; /* Отменяем подчеркивание у ссылки */
+}
 .work {
   width: 350px;
   display: flex;
@@ -11,6 +13,11 @@
   flex-wrap: wrap;
   border: 3px solid rgba(255, 255, 255, 0.1);
   margin-top: 30px;
+
+  &.work:hover {
+    border: 3px solid $textColor_Primary;
+
+  }
 
   .icon {
     display: flex;
