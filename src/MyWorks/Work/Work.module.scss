@@ -14,9 +14,19 @@ a {
   border: 3px solid rgba(255, 255, 255, 0.1);
   margin-top: 30px;
 
+  //&.work:hover {
+  //  color: white;
+  //}
+
   &.work:hover {
     border: 3px solid $textColor_Primary;
+    color: white;
 
+    //> span {
+    //
+    //    color: white;
+    //
+    //}
   }
 
   .icon {
@@ -54,7 +64,6 @@ a {
 
   .workInfo {
     background-color: $backgroundColor_Primary;
-    padding: 20px;
 
     .workTitle {
       font-family: 'Poppins', sans-serif;
@@ -76,6 +85,16 @@ a {
       display: block;
       @include margin(0em, 1rem);
 
+      &.description:hover {
+
+        color: #6c757d;
+
+        > span {
+
+          //color: white;
+
+        }
+      }
     }
   }
 }

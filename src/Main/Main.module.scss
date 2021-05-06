@@ -11,19 +11,19 @@
   background-size: 45% 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-image: url("../assets/image/My_Foto.jpg");
+  background-image: url("../assets/image/photo_6.jpg");
   background-color: rgba(30, 30, 30, 1);
 
   //-webkit-box-shadow: inset 0 0 0 3000px rgba(30 30 30 / 80%);
   //box-shadow: inset 0 0 0 3000px rgba(30 30 30 / 80%);
-}
+  //}
 
 
-//*, ::after, ::before {
-//  box-sizing: border-box;
-//}
+  //*, ::after, ::before {
+  //  box-sizing: border-box;
+  //}
 
-.mainBlock {
+  //.mainBlock {
 
   //  border: 1px solid;
   //  background-color: $backgroundColor_Second;
@@ -35,6 +35,79 @@
     padding-top: 300px;
     width: 300px;
     color: $textColor_h2;
+
+    .mainName {
+      font-family: 'Poppins', sans-serif;
+      min-width: 700px;
+      font-size: 4em;
+      letter-spacing: 3px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      padding: 10px;
+      transform: translate(-50%, -20%);
+      -webkit-transform: translate(-50%, -20%);
+
+    }
+
+    .textRun {
+      font-size: 2em;
+      padding: 10px 0;
+      color: $textColor_h2;
+      margin-top: 120px;
+      margin-bottom: 1rem;
+
+      .primaryColor {
+        color: $textColor_Primary;
+      }
+    }
+
+
+    p {
+      white-space: nowrap;
+      line-height: 50px;
+      overflow: hidden;
+      //-webkit-animation: step 5s steps(50) infinite;
+      animation: step 3s steps(30) infinite;
+    }
+
+    /*   Анимация   */
+    @keyframes step {
+      0% {
+        width: 0;
+      }
+      100% {
+        width: 100%;
+      }
+    }
+    @-webkit-keyframes step {
+      0% {
+        width: 0;
+      }
+      100% {
+        width: 100%;
+      }
+    }
+
+    .conteinerContactMe {
+      padding-top: 30px;
+
+      .contactMe {
+        font-weight: 900;
+        color: #ccc;
+        padding: 1em 2.5em;
+        letter-spacing: 1px;
+        background-color: rgba(0, 0, 0, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        -webkit-box-shadow: 0 0 0 !important;
+        -webkit-transition: all .2s ease-in-out;
+
+        &.contactMe:hover {
+          border: 2px solid $textColor_Primary;
+
+        }
+      }
+    }
   }
 }
 

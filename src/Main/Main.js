@@ -8,13 +8,15 @@ let Main = () => {
         <div className={s.mainBlock}>
             <div className={styleContainer.container}>
                 <div className={s.text}>
-                    <span>Hi There</span>
-                    <h1>I am Evgeny Chausov</h1>
-                    <p>Frontend Developer</p>
+                    <h1 className={s.mainName}> Evgeny Chausov</h1>
+                    <p className={s.textRun}>
+                        <span className={s.primaryColor}>I`am </span>
+                        Frontend Developer
+                    </p>
+                    <div className={s.conteinerContactMe}>
+                        <a href="" className={s.contactMe}>Contact Me</a>
+                    </div>
                 </div>
-                {/*<div className={s.photo}>*/}
-
-                {/*</div>*/}
             </div>
         </div>
     )
