@@ -8,6 +8,10 @@
   width: 700px;
   padding-right: 100px;
 
+  .primaryColor {
+    color: $textColor_Primary;
+  }
+
   &.menu a:hover {
     color: $textColor_Primary;
     background-color: transparent !important;
