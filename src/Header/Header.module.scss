@@ -4,6 +4,7 @@
 .header {
   display: flex;
   position: fixed;
+  z-index: 999999;
   right: 0;
   left: 0;
   justify-content: flex-end;
