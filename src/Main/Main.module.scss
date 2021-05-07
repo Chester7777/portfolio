@@ -33,7 +33,7 @@
   //  flex-wrap: wrap;
   .text {
     padding-top: 300px;
-    width: 300px;
+    width: 370px;
     color: $textColor_h2;
 
     .mainName {
@@ -68,7 +68,7 @@
       line-height: 50px;
       overflow: hidden;
       //-webkit-animation: step 5s steps(50) infinite;
-      animation: step 3s steps(30) infinite;
+      animation: step 3s steps(50) infinite;
     }
 
     /*   Анимация   */

@@ -31,7 +31,7 @@ let MyWorks = (props) => {
                     <Work style={socialNetwork} title={"CONVERTER"} description={skillText2} href=""/>
                     <Work style={socialNetwork} title={"TODOLIST 2"} description={skillText2} href="https://chester7777.github.io/NewToDoForDay_JS/"/>
                     <Work style={socialNetwork} title={"PORTFOLIO"} description={skillText2} href="https://chester7777.github.io/portfolio/"/>
-                    <Work style={socialNetwork} title={"CARDS"} description={skillText2} href=""/>
+                    <Work style={socialNetwork} title={"CARDS"} description={skillText2} href="https://highhack.github.io/404"/>
                 </div>
             </div>
         </div>
