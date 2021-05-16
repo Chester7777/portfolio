@@ -13,9 +13,14 @@ let skillText3 = "actions это константы, описывающие со
             <div className={`${styleContainer.container} ${s.skillsContainer}`}>
                 <TitleMy text={"Skills"} textMy={"My"}/>
                 <div className={s.skills}>
-                    <Skill title={"TS"} description={skillText1}/>
-                    <Skill title={"CSS"} description={skillText2}/>
-                    <Skill title={"React"} description={skillText3}/>
+                    <Skill title={"JAVASCRIPT/TYPESCRIPT"} description={skillText1} icon={"https://img.icons8.com/ios-filled/2x/github.png"}/>
+                    <Skill title={"REACT/REDUX"} description={skillText2}/>
+                    <Skill title={"HTML"} description={skillText3}/>
+                    <Skill title={"CSS/SCSS"} description={skillText3}/>
+                    <Skill title={"AXIOS/REST API"} description={skillText3}/>
+                    <Skill title={"AXIOS/REST API"} description={skillText3}/>
+                    <Skill title={"ANT DESIGN/MATERIAL-UI "} description={skillText3}/>
+                    <Skill title={"UNIT TESTS/ STORYBOOK/ SNAPSHOT TESTING"} description={skillText3}/>
                 </div>
             </div>
         </div>

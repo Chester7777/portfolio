@@ -3,7 +3,7 @@
 
 .skillsBlock {
   min-height: 100vh;
-  background-color: $backgroundColor_Primary;
+  background-color: $backgroundColor_Second;
 
   .skillsContainer {
     display: flex;
@@ -13,6 +13,7 @@
 
     .skills {
       border: 1px solid;
+      background-color: $backgroundColor_Second;
       width: 100%;
       display: flex;
       justify-content: space-between;

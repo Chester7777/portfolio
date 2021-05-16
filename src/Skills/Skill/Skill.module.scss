@@ -3,22 +3,34 @@
 
 .skill {
   width: 250px;
-  background-color: $backgroundColor_Second;
+  background-color: $backgroundColor_Primary;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   flex-wrap: wrap;
+  border: 3px solid rgba(255, 255, 255, 0.1);
+  margin-top: 30px;
 
+  &.skill:hover {
+    border: 3px solid $textColor_Primary;
+    color: white;
+
+  }
   .icon {
     height: 60px;
     width: 60px;
-    background-color: gray;
+    background-color: $backgroundColor_Primary;
+
+    &:before {
+      //image: "https://img.icons8.com/ios-filled/2x/github.png";
+      content: 'https://img.icons8.com/ios-filled/2x/github.png';
+    }
   }
 
   .description {
     padding: 20px;
-    background-color: cornsilk;
+    background-color: $backgroundColor_Primary;
   }
 }
 
