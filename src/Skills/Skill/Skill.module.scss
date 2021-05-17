@@ -18,14 +18,17 @@
 
   }
   .icon {
-    height: 60px;
-    width: 60px;
+    height: 40px;
+    width: 40px;
     background-color: $backgroundColor_Primary;
 
-    &:before {
-      //image: "https://img.icons8.com/ios-filled/2x/github.png";
-      content: 'https://img.icons8.com/ios-filled/2x/github.png';
-    }
+    //.icon:before {
+    // //position: absolute;
+    //  content: "\f030";
+    //}
+    //.icon, ::after, ::before {
+    //  box-sizing: border-box;
+    //}
   }
 
   .description {
