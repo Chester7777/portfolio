@@ -18,9 +18,31 @@
 
   }
   .icon {
-    height: 40px;
-    width: 40px;
+    //height: 40px;
+    //width: 40px;
     background-color: $backgroundColor_Primary;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+     a {
+       display: inline-flex;
+       align-items: center;
+       justify-content: center;
+       height: inherit;
+       width: inherit;
+       img {
+         height: 80%;
+         width: 80%;
+       }
+     }
+    .svgIcon {
+      height: 60px;
+      width: 60px;
+      background-color: white;
+      border-radius: 999px;
+    }
 
     //.icon:before {
     // //position: absolute;

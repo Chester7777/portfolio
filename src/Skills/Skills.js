@@ -14,7 +14,7 @@ let skillText3 = "actions это константы, описывающие со
                 <TitleMy text={"Skills"} textMy={"My"}/>
                 <div className={s.skills}>
                     <Skill title={"JAVASCRIPT/TYPESCRIPT"} description={skillText1} icon={"https://img.icons8.com/ios-filled/2x/github.png"}/>
-                    <Skill title={"REACT/REDUX"} description={skillText2}/>
+                    <Skill title={"REACT/REDUX"} description={skillText2} icon={"https://img.icons8.com/wired/2x/compare-git.png"}/>
                     <Skill title={"HTML"} description={skillText3}/>
                     <Skill title={"CSS/SCSS"} description={skillText3}/>
                     <Skill title={"AXIOS/REST API"} description={skillText3}/>
