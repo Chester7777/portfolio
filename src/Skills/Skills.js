@@ -3,7 +3,7 @@ import s from "./Skills.module.scss"
 import styleContainer from "../Common/Styles/StyleContainer.module.scss"
 import Skill from "./Skill/Skill";
 import TitleMy from "../Common/Components/Title/Title";
-
+import htmlIcon from '../assets/image/icons8-html-filetype-100.png'
 let Skills = () => {
 let skillText1 = "actions это константы, описывающие событие. Обычно это просто строка с названием описывающее событие."
 let skillText2 = "actions это константы, описывающие событие. К примеру константа описывающее событие номер один будет выглядеть следующем образом:"
@@ -15,7 +15,7 @@ let skillText3 = "actions это константы, описывающие со
                 <div className={s.skills}>
                     <Skill title={"JAVASCRIPT/TYPESCRIPT"} description={skillText1} icon={"https://img.icons8.com/ios-filled/2x/github.png"}/>
                     <Skill title={"REACT/REDUX"} description={skillText2} icon={"https://img.icons8.com/wired/2x/compare-git.png"}/>
-                    <Skill title={"HTML"} description={skillText3}/>
+                    <Skill title={"HTML"} description={skillText3} icon={htmlIcon}/>
                     <Skill title={"CSS/SCSS"} description={skillText3}/>
                     <Skill title={"AXIOS/REST API"} description={skillText3}/>
                     <Skill title={"AXIOS/REST API"} description={skillText3}/>
