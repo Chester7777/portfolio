@@ -23,15 +23,20 @@ let MyWorks = (props) => {
     return (
 
         <div className={s.worksBlock}>
+            <TitleMy text={" Experience"} textMy={"My"}/>
             <div className={`${styleContainer.container} ${s.worksContainer}`}>
-                <TitleMy text={" Experience"} textMy={"My"}/>
                 <div className={s.works}>
-                    <Work style={todo} title={"TODOLIST"} description={skillText1} href="https://chester7777.github.io/todolist_16/#/login"/>
-                    <Work style={socialNetwork} title={"SOCIAL NETWORK"} description={skillText2} href="https://chester7777.github.io/sn-ts-example/"/>
+                    <Work style={todo} title={"TODOLIST"} description={skillText1}
+                          href="https://chester7777.github.io/todolist_16/#/login"/>
+                    <Work style={socialNetwork} title={"SOCIAL NETWORK"} description={skillText2}
+                          href="https://chester7777.github.io/sn-ts-example/"/>
                     <Work style={socialNetwork} title={"CONVERTER"} description={skillText2} href=""/>
-                    <Work style={socialNetwork} title={"TODOLIST 2"} description={skillText2} href="https://chester7777.github.io/NewToDoForDay_JS/"/>
-                    <Work style={socialNetwork} title={"PORTFOLIO"} description={skillText2} href="https://chester7777.github.io/portfolio/"/>
-                    <Work style={socialNetwork} title={"CARDS"} description={skillText2} href="https://highhack.github.io/404"/>
+                    <Work style={socialNetwork} title={"TODOLIST 2"} description={skillText2}
+                          href="https://chester7777.github.io/NewToDoForDay_JS/"/>
+                    <Work style={socialNetwork} title={"PORTFOLIO"} description={skillText2}
+                          href="https://chester7777.github.io/portfolio/"/>
+                    <Work style={socialNetwork} title={"CARDS"} description={skillText2}
+                          href="https://highhack.github.io/404"/>
                 </div>
             </div>
         </div>

@@ -3,8 +3,14 @@
 .title {
   position: relative;
   //background-color: $backgroundColor_Second;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  flex-direction: row;
 
-  margin: 0 0 25px;
+  padding-top: 100px;
+  padding-left: 180px;
+
   font-family: 'Montserrat', sans-serif;
   font-size: 1.5em;
   font-weight: 700;
@@ -12,11 +18,20 @@
   box-sizing: border-box;
   line-height: 1.2;
 
-  display: block;
-  margin-block-start: 0.83em;
-  margin-block-end: 0.83em;
+  margin-block-end: 1.83em;
   margin-inline-start: 0;
   margin-inline-end: 0;
+
+  &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 180px;
+    bottom: -8px;
+    height: 4px;
+    width: 1.6em;
+    background-color: $textColor_Primary;
+  }
 
   h2 {
     margin: 0;
@@ -25,16 +40,7 @@
       color: $textColor_Primary;
     }
 
-    &::before {
-      content: "";
-      display: block;
-      position: absolute;
-      left: -2px;
-      bottom: -8px;
-      height: 4px;
-      width: 1.6em;
-      background-color: $textColor_Primary;
-    }
+
   }
 }
 

@@ -15,16 +15,17 @@ import tests from "../assets/image/icons8-unit-100.png";
 
 
 let Skills = () => {
-let skillText1 = "actions это константы, описывающие событие. Обычно это просто строка с названием описывающее событие."
-let skillText2 = "actions это константы, описывающие событие. К примеру константа описывающее событие номер один будет выглядеть следующем образом:"
-let skillText3 = "actions это константы,  это просто строка с названием описывающее событие. К примеру константа описывающее событие номер один будет выглядеть следующем образом:."
+    let skillText1 = "actions это константы, описывающие событие. Обычно это просто строка с названием описывающее событие."
+    let skillText2 = "actions это константы, описывающие событие. К примеру константа описывающее событие номер один будет выглядеть следующем образом:"
+    let skillText3 = "actions это константы,  это просто строка с названием описывающее событие. К примеру константа описывающее событие номер один будет выглядеть следующем образом:."
 
     return (
         <div className={s.skillsBlock}>
+            <TitleMy text={"Skills"} textMy={"My"}/>
             <div className={`${styleContainer.container} ${s.skillsContainer}`}>
-                <TitleMy text={"Skills"} textMy={"My"}/>
                 <div className={s.skills}>
-                    <Skill title={"COMMERCIAL DEVELOPMENT EXPERIENCE"} description={skillText1} icon={commercial_developer}/>
+                    <Skill title={"COMMERCIAL DEVELOPMENT EXPERIENCE"} description={skillText1}
+                           icon={commercial_developer}/>
                     <Skill title={"JAVASCRIPT/TYPESCRIPT"} description={skillText1} icon={js_Ts}/>
                     <Skill title={"REACT/REDUX/REDUX TOOLKIT"} description={skillText2} icon={react}/>
                     <Skill title={"HTML"} description={skillText3} icon={htmlIcon}/>
