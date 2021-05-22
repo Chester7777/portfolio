@@ -2,7 +2,8 @@
 
 
 .skill {
-  width: 250px;
+  max-width: 25%;
+  max-height: 20%;
   background-color: $backgroundColor_Primary;
   display: flex;
   flex-direction: column;
@@ -11,32 +12,49 @@
   flex-wrap: wrap;
   border: 3px solid rgba(255, 255, 255, 0.1);
   margin-top: 30px;
+  flex: 0 0 50%;
+
+  .title {
+    color: #ccc;
+  }
 
   &.skill:hover {
-    border: 3px solid $textColor_Primary;
-    color: white;
+    .svgIcon {
+      background-color: $textColor_Primary;
+    }
+    .title {
+      color: white;
+    }
 
+    .description {
+      color: #6c757d;
+    }
   }
+
+
+
   .icon {
-    //height: 40px;
-    //width: 40px;
     background-color: $backgroundColor_Primary;
     display: flex;
     align-items: center;
     justify-content: center;
     padding-top: 15px;
     padding-bottom: 15px;
-     a {
-       display: inline-flex;
-       align-items: center;
-       justify-content: center;
-       height: inherit;
-       width: inherit;
-       img {
-         height: 80%;
-         width: 80%;
-       }
-     }
+
+
+    a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      height: inherit;
+      width: inherit;
+
+      img {
+        height: 80%;
+        width: 80%;
+      }
+    }
+
     .svgIcon {
       height: 60px;
       width: 60px;
@@ -44,18 +62,19 @@
       border-radius: 999px;
     }
 
-    //.icon:before {
-    // //position: absolute;
-    //  content: "\f030";
-    //}
-    //.icon, ::after, ::before {
-    //  box-sizing: border-box;
-    //}
   }
 
   .description {
-    padding: 20px;
-    background-color: $backgroundColor_Primary;
+    padding: 15px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: 0.6em;
+    margin-bottom: 2em;
+    color: #888;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+
+
   }
 }
 

@@ -9,7 +9,6 @@ let Skill = (props) => {
             <div className={s.icon}>
                 <div className={s.svgIcon}>
                     <a href={props.href}>
-
                         <img src={props.icon} alt=""/>
                     </a>
                 </div>
