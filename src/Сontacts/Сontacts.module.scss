@@ -5,35 +5,66 @@
   min-height: 100vh;
   background-color: $backgroundColor_Primary;
 
+
   .containerForm {
     background-color: $backgroundColor_Second;
     display: flex;
+    height: 100%;
     position: relative;
-    padding: 2.5em;
+    padding-block: 4em;
 
-    .containerForm .form input, .containerForm .form textarea {
-      padding: 0.6em 1em;
-      letter-spacing: 1px;
-      border-radius: 0;
-      color: #aaa;
-      border: 1px solid transparent;
-      //border-color: transparent;
-      background-color: rgba(0, 0, 0, 0.15);
+    address {
+      margin-bottom: 1rem;
+      font-style: normal;
+      line-height: inherit;
+
+      .contact {
+        display: flex;
+        flex-direction: column;
+        margin: 2.3em 0;
+
+        &.contact  span {
+          display: flex;
+          margin: 0.5em 0;
+          line-height: 1.1;
+          font-weight: 600;
+          color: #aaa;
+        }
+        &.contact  p {
+          display: flex;
+          margin-top: 0;
+          margin-bottom: 1rem;
+          color: #888;
+        }
+
+        .map_marker_alt {
+          display: flex;
+          font-size: 1.9em;
+          margin: 0.5em 0;
+          color: #09aaaa;
+          text-shadow: 0 0 20px #09aaaa;
+
+          //font-family: 'Font Awesome 5 Free';
+          font-weight: 900;
+
+
+          &::before {
+            content: "\f3c5";
+          }
+        }
+      }
     }
 
-    //flex-wrap: wrap;
-    //position: relative;
 
     .contactsContainer {
-
+      width: 60%;
 
       .title {
         background-color: darkgrey;
       }
 
       .form {
-        border: 2px solid;
-        width: 30%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -41,47 +72,60 @@
         .form_group {
           margin-bottom: 1rem;
 
-          //padding: 0.6em 1em;
-          //letter-spacing: 1px;
-          //border-radius: 0;
-          //color: #aaa;
-          //border: 1px solid transparent;
-          //border-color: transparent;
-          //background-color: rgba(0,0,0,0.15);
-
-
-          //*, ::after, ::before {
-          //  box-sizing: border-box;
-          //}
-
           .form_control {
-            display: block;
             width: 100%;
-            height: calc(1.5em + .75rem + 2px);
-            padding: .375rem .75rem;
+            padding: 0.6em 1em;
+            letter-spacing: 1px;
+            border-radius: 0;
+            color: #aaa;
+            border-color: transparent;
+            background-color: rgba(0, 0, 0, 0.15);
             font-size: 1rem;
-            font-weight: 400;
-            line-height: 1.5;
-            color: #495057;
-            background-color: $textColor_h2;
-            background-clip: padding-box;
-            border: 1px solid #ced4da;
-            border-radius: .25rem;
-            transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+            font-family: inherit;
+            cursor: inherit;
+            outline: $textColor_Span;
+
+            &.form_control:focus {
+              border: 1px solid rgba(255, 255, 255, 0.1);
+            }
+
+
+          }
+
+          & textarea {
+            overflow: auto;
+            text-rendering: auto;
+            background: #09aaaa;
+            resize: none;
+            font-family: inherit;
           }
         }
       }
 
       .submitBtn {
-        padding: 10px 20px;
-        background-color: orange;
+        display: flex;
+        cursor: pointer;
+        font-size: 1.1em;
+        padding: 0.5em 2em;
+        letter-spacing: 1px;
+        border-radius: 0;
+        outline: none !important;
+        color: #aaa;
+        -webkit-box-shadow: 0 0 0 !important;
+        box-shadow: 0 0 0 !important;
+        background-color: rgba(0, 0, 0, 0.2);
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        -webkit-transition: all .2s ease-in-out;
+        transition: all .2s ease-in-out;
+
+        &.submitBtn:hover {
+          color: white;
+          background-color: rgba(0, 0, 0, 0.3);
+          border: 1px solid rgba(255, 255, 255, 0.2);
+        }
       }
     }
   }
 }
 
-
-/*.form input .form textarea {*/
-/*    width: 100%;*/
-/*}*/
 

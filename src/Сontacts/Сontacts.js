@@ -10,7 +10,27 @@ const Сontacts = () => {
         <TitleMe text={"Contact "} textMe={"Me"}/>
         <div className={`${styleContainer.container} ${s.containerForm}`}>
             <div>
-                address
+
+                <address>
+                    <div className={s.contact}>
+                        <i className={s.map_marker_alt} aria-hidden="true">
+
+                        </i>
+                        <span>Address :</span>
+                        <p>220013, Yakub Kolas, Minsk, Belarus</p>
+
+                    </div>
+                    <div className={s.contact}>
+                        <i className={s.map_marker_alt} aria-hidden="true"></i>
+                        <span>Phone :</span>
+                        <p>+375 29 241 53 55</p>
+                    </div>
+                    <div className={s.contact}>
+                        <i className={s.map_marker_alt} aria-hidden="true"></i>
+                        <span>Email :</span>
+                        <p>Es18.03.88@gmail.com</p>
+                    </div>
+                </address>
 
             </div>
             <div className={s.contactsContainer}>
@@ -27,24 +47,26 @@ const Сontacts = () => {
                             />
                         </div>
                     </div>
-                    <div>
+                    <div className={s.form_group}>
                         <div>
                             <input
-                                type="text"
+                                type="Email"
                                 className={s.form_control}
+                                placeholder="Email"
                             />
                         </div>
                     </div>
-                    <div>
+                    <div className={s.form_group}>
                         <div>
                             <textarea
                                 className={s.form_control}
-                                name=""
-                                id=""
+                                name="message"
+                                id="message"
                                 cols="30"
-                                rows="10"
+                                rows="7"
+                                placeholder="Your Message"
+                                required
                             ></textarea>
-
                         </div>
                     </div>
                     <div>
