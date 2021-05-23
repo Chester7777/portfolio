@@ -21,8 +21,9 @@
   }
 
   &.skill:hover {
-    .svgIcon {
-      background-color: $textColor_Primary;
+    #iconStile {
+      //background-color: $textColor_Primary;
+      color: $textColor_Primary;
     }
     .title {
       color: white;
@@ -51,19 +52,36 @@
       height: inherit;
       width: inherit;
 
-      img {
-        height: 80%;
-        width: 80%;
-      }
+      //img {
+      //  height: 80%;
+      //  width: 80%;
+      //}
     }
 
     .svgIcon {
-      height: 60px;
-      width: 60px;
-      background-color: white;
-      border-radius: 999px;
-    }
+      //height: 60px;
+      //width: 60px;
+      //background-color: white;
+      //border-radius: 999px;
+      #iconStile {
+        //width: 80%;
+        //height: inherit;
+        //font-weight: 900;
+        margin-top: 30px;
+        font-size: 5em;
+        color: white;
+        //text-shadow: 0 0 20px #09aaaa;
+        //font-weight: 900;
 
+        //  &#iconStile:hover {
+        //    //#iconStile {
+        //    //  background-color: $textColor_Primary;
+        //    color: $textColor_Primary;
+        //    //}
+        //
+        //}
+      }
+    }
   }
 
   .description {
@@ -76,7 +94,7 @@
     -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
 
-
   }
+
 }
 

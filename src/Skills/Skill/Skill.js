@@ -9,7 +9,8 @@ let Skill = (props) => {
             <div className={s.icon}>
                 <div className={s.svgIcon}>
                     <a href={props.href}>
-                        <img src={props.icon} alt=""/>
+                        {/*<img src={props.icon} alt=""/>*/}
+                        <i id={s.iconStile} className={props.className} aria-hidden="true"></i>
                     </a>
                 </div>
             </div>

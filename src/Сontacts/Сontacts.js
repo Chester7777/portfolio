@@ -13,20 +13,19 @@ const Сontacts = () => {
 
                 <address>
                     <div className={s.contact}>
-                        <i className={s.map_marker_alt} aria-hidden="true">
+                        <i id={s.map_marker_alt}  className="fa fa-map-marker" aria-hidden="true"></i>
 
-                        </i>
                         <span>Address :</span>
                         <p>220013, Yakub Kolas, Minsk, Belarus</p>
 
                     </div>
                     <div className={s.contact}>
-                        <i className={s.map_marker_alt} aria-hidden="true"></i>
+                        <i id={s.map_marker_alt} className="fa fa-phone" aria-hidden="true"></i>
                         <span>Phone :</span>
                         <p>+375 29 241 53 55</p>
                     </div>
                     <div className={s.contact}>
-                        <i className={s.map_marker_alt} aria-hidden="true"></i>
+                        <i id={s.map_marker_alt} className="fa fa-envelope-o" aria-hidden="true"></i>
                         <span>Email :</span>
                         <p>Es18.03.88@gmail.com</p>
                     </div>

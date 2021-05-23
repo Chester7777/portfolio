@@ -8,10 +8,8 @@
 
   .containerForm {
     background-color: $backgroundColor_Second;
-    display: flex;
-    height: 100%;
     position: relative;
-    padding-block: 4em;
+    padding-block: 2em;
 
     address {
       margin-bottom: 1rem;
@@ -23,41 +21,35 @@
         flex-direction: column;
         margin: 2.3em 0;
 
-        &.contact  span {
+        &.contact span {
           display: flex;
           margin: 0.5em 0;
           line-height: 1.1;
           font-weight: 600;
           color: #aaa;
         }
-        &.contact  p {
+
+        &.contact p {
           display: flex;
           margin-top: 0;
           margin-bottom: 1rem;
           color: #888;
         }
 
-        .map_marker_alt {
+        #map_marker_alt {
           display: flex;
           font-size: 1.9em;
           margin: 0.5em 0;
           color: #09aaaa;
           text-shadow: 0 0 20px #09aaaa;
-
-          //font-family: 'Font Awesome 5 Free';
           font-weight: 900;
-
-
-          &::before {
-            content: "\f3c5";
-          }
         }
       }
     }
 
 
     .contactsContainer {
-      width: 60%;
+      width: 55%;
 
       .title {
         background-color: darkgrey;
@@ -81,7 +73,7 @@
             border-color: transparent;
             background-color: rgba(0, 0, 0, 0.15);
             font-size: 1rem;
-            font-family: inherit;
+            font-family: 'Montserrat', sans-serif;
             cursor: inherit;
             outline: $textColor_Span;
 
