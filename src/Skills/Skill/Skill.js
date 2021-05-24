@@ -15,6 +15,17 @@ let Skill = (props) => {
                 </div>
             </div>
             <h3 className={s.title}>{props.title}</h3>
+            <div className={s.progress}>
+                <div className={s.progress_bar_info} role="progressbar" aria-valuenow="95" aria-valuemin="0"
+                     aria-valuemax="100" >
+                    <span className={s.span_progress}>95%</span>
+                </div>
+            </div>
+
+            {/*<div   aria-valuenow="85"*/}
+            {/*     style="min-width: 2em; width: 85%;">*/}
+            {/*    <span>85%</span>*/}
+            {/*</div>*/}
             <span className={s.description}>{props.description}</span>
 
         </div>
