@@ -25,15 +25,15 @@ let Skills = () => {
             <div className={`${styleContainer.container} ${s.skillsContainer}`}>
                 <div className={s.skills}>
                     <Skill className={"fa fa-handshake-o"} title={"COMMERCIAL DEVELOPMENT EXPERIENCE"} description={skillText1}
-                           icon={commercial_developer}/>
-                    <Skill className={"fa fa-file-code-o"} title={"JAVASCRIPT/TYPESCRIPT"} description={skillText1} icon={js_Ts}/>
-                    <Skill className={"fa fa-joomla"} title={"REACT/REDUX/REDUX TOOLKIT"} description={skillText2} icon={react}/>
-                    <Skill className={"fa fa-html5"} title={"HTML"} description={skillText3} icon={htmlIcon}/>
-                    <Skill className={"fa fa-css3"} title={"CSS/SCSS"} description={skillText3} icon={scss_css}/>
-                    <Skill className={"fa fa-random"} title={"AXIOS/REST API"} description={skillText3} icon={axios_api}/>
-                    <Skill className={"fa fa-github-square"} title={"GIT/JIRA"} description={skillText3} icon={git}/>
-                    <Skill className={"fa fa-television"} title={"ANT DESIGN/MATERIAL-UI "} description={skillText3} icon={design}/>
-                    <Skill className={"fa fa-cogs"} title={"UNIT TESTS/ STORYBOOK/ SNAPSHOT TESTING"} description={skillText3} icon={tests}/>
+                           icon={commercial_developer} procentProgress={"95%"}/>
+                    <Skill className={"fa fa-file-code-o"} title={"JAVASCRIPT/TYPESCRIPT"} description={skillText1} icon={js_Ts} procentProgress={"95%"}/>
+                    <Skill className={"fa fa-joomla"} title={"REACT/REDUX/REDUX TOOLKIT"} description={skillText2} icon={react} procentProgress={"95%"}/>
+                    <Skill className={"fa fa-html5"} title={"HTML"} description={skillText3} icon={htmlIcon} procentProgress={"95%"}/>
+                    <Skill className={"fa fa-css3"} title={"CSS/SCSS"} description={skillText3} icon={scss_css} procentProgress={"95%"}/>
+                    <Skill className={"fa fa-random"} title={"AXIOS/REST API"} description={skillText3} icon={axios_api} procentProgress={"95%"}/>
+                    <Skill className={"fa fa-github"} title={"GIT/JIRA"} description={skillText3} icon={git} procentProgress={"95%"}/>
+                    <Skill className={"fa fa-television"} title={"ANT DESIGN/MATERIAL-UI "} description={skillText3} icon={design} procentProgress={"95%"}/>
+                    <Skill className={"fa fa-cogs"} title={"UNIT TESTS/ STORYBOOK/ SNAPSHOT TESTING"} description={skillText3} icon={tests} procentProgress={"95%"}/>
                 </div>
             </div>
         </div>

@@ -17,8 +17,8 @@ let Skill = (props) => {
             <h3 className={s.title}>{props.title}</h3>
             <div className={s.progress}>
                 <div className={s.progress_bar_info} role="progressbar" aria-valuenow="95" aria-valuemin="0"
-                     aria-valuemax="100" >
-                    <span className={s.span_progress}>95%</span>
+                     aria-valuemax="100">
+                    <span className={s.span_progress}>{props.procentProgress}</span>
                 </div>
             </div>
 
