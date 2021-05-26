@@ -5,7 +5,7 @@ import styleContainer from "../Common/Styles/StyleContainer.module.scss"
 let Main = () => {
 
     return (
-        <div className={s.mainBlock}>
+        <div id={"main"} className={s.mainBlock}>
             <div className={styleContainer.container}>
                 <div className={s.text}>
                     <h1 className={s.mainName}> Evgeny Chausov</h1>

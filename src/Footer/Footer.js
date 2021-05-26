@@ -9,10 +9,10 @@ const Footer = () => {
         <div className={` ${s.footerContainer}`}>
             <SocialIcon href="#" id={s.socialIcon} className="fa fa-linkedin"/>
             <SocialIcon href="#" id={s.socialIcon} className="fa fa-github"/>
+            <SocialIcon href="#" id={s.socialIcon} className="fa fa-empire"/>
             <SocialIcon href="#" id={s.socialIcon} className="fa fa-telegram"/>
             <SocialIcon href="#" id={s.socialIcon} className="fa fa-whatsapp"/>
             <SocialIcon href="#" id={s.socialIcon} className="fa fa-vk"/>
-            {/*<SocialIcon href="#" id={s.socialIcon} className="fa fa-instagram"/>*/}
             {/*<SocialIcon href="#" id={s.socialIcon} className="fa fa-odnoklassniki"/>*/}
         </div>
         <p className={s.copyright}>

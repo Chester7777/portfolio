@@ -18,6 +18,7 @@ let Skill = (props) => {
             <div className={s.progress}>
                 <div className={s.progress_bar_info} role="progressbar" aria-valuenow="95" aria-valuemin="0"
                      aria-valuemax="100">
+                    {/*<i className="fab fa-react"></i>*/}
                     <span className={s.span_progress}>{props.procentProgress}</span>
                 </div>
             </div>

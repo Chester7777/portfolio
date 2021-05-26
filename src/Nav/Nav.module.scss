@@ -7,15 +7,21 @@
   flex-wrap: wrap;
   width: 700px;
   padding-right: 100px;
+  scroll-behavior: smooth;
 
   .primaryColor {
     color: $textColor_Primary;
   }
 
-  &.menu a:hover {
+  &.menu :hover{
     color: $textColor_Primary;
     background-color: transparent !important;
   }
+
+  //#active :focus {
+  //    color: #09aaaa !important;
+  //    background-color: transparent !important;
+  //  }
 
   a {
     color: $textColor_h3;
