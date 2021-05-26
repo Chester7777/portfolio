@@ -9,9 +9,10 @@ let Nav = () => {
             <a href=''>
                 <span className={s.primaryColor}>Home page</span>
             </a>
-            <a href=''>Skills</a>
-            <a href=''>Projects</a>
-            <a href=''>Contacts</a>
+            <a href='#skills'>Skills</a>
+            <a href='#projects'>Projects</a>
+            <a href='#remoteWork'>Remote work</a>
+            <a href='#contacts'>Contacts</a>
         </div>
     )
 }

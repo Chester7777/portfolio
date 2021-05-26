@@ -20,7 +20,7 @@ let Skills = () => {
     let skillText3 = "actions это константы,  это просто строка с названием описывающее событие. К примеру константа описывающее событие номер один будет выглядеть следующем образом:."
 
     return (
-        <div className={s.skillsBlock}>
+        <div id={"skills"} className={s.skillsBlock}>
             <TitleMy text={"Skills"} textMy={"My"}/>
             <div className={`${styleContainer.container} ${s.skillsContainer}`}>
                 <div className={s.skills}>

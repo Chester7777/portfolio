@@ -5,7 +5,7 @@ import TitleMe from "../Common/Components/Title/TitleMe";
 
 const Telework = () => {
 
-    return <div className={s.teleworkBlock}>
+    return <div id={"remoteWork"} className={s.teleworkBlock}>
             <div className={` ${s.teleworkContainer}`}>
                 <TitleMe  text={"Remote work for "} textMe={"Me"}/>
 

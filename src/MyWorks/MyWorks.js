@@ -22,7 +22,7 @@ let MyWorks = (props) => {
 
     return (
 
-        <div className={s.worksBlock}>
+        <div id={"projects"} className={s.worksBlock}>
             <TitleMy text={" Experience"} textMy={"My"}/>
             <div className={`${styleContainer.container} ${s.worksContainer}`}>
                 <div className={s.works}>
