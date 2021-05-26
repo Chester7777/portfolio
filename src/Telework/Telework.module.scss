@@ -3,14 +3,103 @@
 
 .teleworkBlock {
   border: 1px solid;
-  background-color: $backgroundColor_Primary;
-  min-height: 100vh;
+  background-color: $backgroundColor_Second;
+  min-height: 50vh;
 
   .teleworkContainer {
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 30%;
+    //align-items: center;
+    //flex-direction: column;
+    //justify-content: space-around;
+    //height: 30%;
+    background-color: $backgroundColor_Second;
+
+    .title {
+      display: flex;
+      justify-content: center;
+      margin-top: 110px;
+      font-family: 'Montserrat', sans-serif;
+
+      font-size: 2em;
+      //font-weight: 700;
+      color: $textColor_h3;
+      //box-sizing: border-box;
+      line-height: 2.2;
+
+      &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        left: 0;
+        bottom: -3px;
+        width: 0;
+        height: 3px;
+        background-color: #09aaaa;
+        -webkit-transition: width .5s ease-in-out;
+        transition: width .5s ease-in-out;
+      }
+      //&:hover {
+      //  color: $textColor_Primary;
+      //  //border-color: wheat
+      //  //background-color: rgba(0,0,0,0.2);
+      //  border-color: rgba(255,255,255,0.2);;
+      //  background-color: rgba(0,0,0,.5);
+      //}
+    }
+
+    .customBtn {
+      display: block;
+      font: 400 14px/1.2 'Montserrat', sans-serif;
+      text-transform: uppercase;
+      text-decoration: none;
+      letter-spacing: 1px;
+      padding: 7px 20px;
+      //margin: 5px;
+      cursor: pointer;
+      -webkit-transition: all 0.4s ease-in-out 0s;
+      -moz-transition: all 0.4s ease-in-out 0s;
+      //-ms-transition: all 0.4s ease-in-out 0s;
+      -o-transition: all 0.4s ease-in-out 0s;
+      transition: all 0.4s ease-in-out 0s;
+      background: transparent;
+      color: #fff;
+      max-width: 170px;
+      margin: 50px auto;
+      z-index: 22;
+      text-align: center;
+      border-radius: 0px;
+      width: 100%;
+      border: none;
+      position: relative;
+      font-weight: 500;
+
+      &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 10px;
+        width: 50%;
+        background: $textColor_Primary;
+        z-index: -1;
+        -webkit-transition: all 0.2s ease-in-out 0s;
+        -moz-transition: all 0.2s ease-in-out 0s;
+        -ms-transition: all 0.2s ease-in-out 0s;
+        -o-transition: all 0.2s ease-in-out 0s;
+        transition: all 0.2s ease-in-out 0s;
+        margin: 0 auto;
+      }
+
+      &:hover {
+        box-shadow: 0px 10px 20px rgba(0,0,0,0.1);
+        color: #fff;
+      }
+
+      &:hover::after {
+        height: 100%;
+        width: 100%;
+      }
+    }
   }
 }
 
