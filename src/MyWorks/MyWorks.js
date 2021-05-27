@@ -26,7 +26,7 @@ let MyWorks = (props) => {
             <TitleMy text={" Experience"} textMy={"My"}/>
             <div className={`${styleContainer.container} ${s.worksContainer}`}>
                 <div className={s.works}>
-                    <Work style={todo} title={"TODOLIST"} description={skillText1}
+                    <Work style={socialNetwork} title={"TODOLIST"} description={skillText1}
                           href="https://chester7777.github.io/todolist_16/#/login"/>
                     <Work style={socialNetwork} title={"SOCIAL NETWORK"} description={skillText2}
                           href="https://chester7777.github.io/sn-ts-example/"/>
