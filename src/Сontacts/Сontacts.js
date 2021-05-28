@@ -2,6 +2,7 @@ import React from "react";
 import s from "./Сontacts.module.scss"
 import styleContainer from "../Common/Styles/StyleContainer.module.scss";
 import TitleMe from "../Common/Components/Title/TitleMe";
+import {ContactsForm} from "./ContactsForm";
 
 
 const Сontacts = () => {
@@ -32,50 +33,51 @@ const Сontacts = () => {
                 </address>
 
             </div>
-            <div className={s.contactsContainer}>
-                <form action="" className={s.form}>
-                    <div className={s.form_group}>
-                        <div>
-                            <input
-                                type="text"
-                                className={s.form_control}
-                                id="name"
-                                placeholder="Name"
-                                name="user"
-                                required="required"
-                            />
-                        </div>
-                    </div>
-                    <div className={s.form_group}>
-                        <div>
-                            <input
-                                type="Email"
-                                className={s.form_control}
-                                placeholder="Email"
-                            />
-                        </div>
-                    </div>
-                    <div className={s.form_group}>
-                        <div>
-                            <textarea
-                                className={s.form_control}
-                                name="message"
-                                id="message"
-                                cols="30"
-                                rows="7"
-                                placeholder="Your Message"
-                                required
-                            ></textarea>
-                        </div>
-                    </div>
-                    <div>
-                        <div>
-                            <button type="submit" className={s.submitBtn}>SEND</button>
+            <ContactsForm />
+            {/*<div className={s.contactsContainer}>*/}
+            {/*    <form action="" className={s.form}>*/}
+            {/*        <div className={s.form_group}>*/}
+            {/*            <div>*/}
+            {/*                <input*/}
+            {/*                    type="text"*/}
+            {/*                    className={s.form_control}*/}
+            {/*                    id="name"*/}
+            {/*                    placeholder="Name"*/}
+            {/*                    name="user"*/}
+            {/*                    required="required"*/}
+            {/*                />*/}
+            {/*            </div>*/}
+            {/*        </div>*/}
+            {/*        <div className={s.form_group}>*/}
+            {/*            <div>*/}
+            {/*                <input*/}
+            {/*                    type="Email"*/}
+            {/*                    className={s.form_control}*/}
+            {/*                    placeholder="Email"*/}
+            {/*                />*/}
+            {/*            </div>*/}
+            {/*        </div>*/}
+            {/*        <div className={s.form_group}>*/}
+            {/*            <div>*/}
+            {/*                <textarea*/}
+            {/*                    className={s.form_control}*/}
+            {/*                    name="message"*/}
+            {/*                    id="message"*/}
+            {/*                    cols="30"*/}
+            {/*                    rows="7"*/}
+            {/*                    placeholder="Your Message"*/}
+            {/*                    required*/}
+            {/*                ></textarea>*/}
+            {/*            </div>*/}
+            {/*        </div>*/}
+            {/*        <div>*/}
+            {/*            <div>*/}
+            {/*                <button type="submit" className={s.submitBtn}>SEND</button>*/}
 
-                        </div>
-                    </div>
-                </form>
-            </div>
+            {/*            </div>*/}
+            {/*        </div>*/}
+            {/*    </form>*/}
+            {/*</div>*/}
         </div>
     </div>
 }

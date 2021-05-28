@@ -5,7 +5,7 @@ import {SocialIcon} from "./SocialIcon/SocialIcon";
 
 const Footer = () => {
 
-    return <footer className={s.footerBlock}>
+    return <footer id={"footer"} className={s.footerBlock}>
         <div className={` ${s.footerContainer}`}>
             <SocialIcon href="https://www.linkedin.com/in/evgeny-chausov-6101b1212/" id={s.socialIcon} className="fa fa-linkedin"/>
             <SocialIcon href="https://github.com/Chester7777" id={s.socialIcon} className="fa fa-github"/>
