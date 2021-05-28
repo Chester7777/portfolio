@@ -16,7 +16,7 @@ let Skill = (props) => {
             </div>
             <h3 className={s.title}>{props.title}</h3>
             <div className={s.progress}>
-                <div className={s.progress_bar_info} role="progressbar" aria-valuenow="95" aria-valuemin="0"
+                <div style={props.style} className={s.progress_bar_info} role="progressbar" aria-valuenow="95" aria-valuemin="0"
                      aria-valuemax="100">
                     {/*<i className="fab fa-react"></i>*/}
                     <span className={s.span_progress}>{props.procentProgress}</span>

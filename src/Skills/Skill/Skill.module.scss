@@ -22,7 +22,6 @@
 
   &.skill:hover {
     #iconStile {
-      //background-color: $textColor_Primary;
       color: $textColor_Primary;
     }
 
@@ -102,10 +101,6 @@
     .progress_bar_info {
       position: relative;
       background-color: #09aaaa;
-
-      min-width: 2em;
-      width: 90%;
-
       display: flex;
       flex-direction: column;
       justify-content: center;
