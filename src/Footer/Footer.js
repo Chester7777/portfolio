@@ -20,7 +20,7 @@ const Footer = () => {
             <i id={s.heart} className="fa fa-heart" aria-hidden="true"></i>
             {"By "}
             <a
-                href="https://themeforest.net/user/abdelaziz_sliem" target="_blank">
+                href="https://resume.io/r/HDCtrmGVx" target="_blank">
                 Evgeny Chausov
             </a>
             {" - 2021"}
