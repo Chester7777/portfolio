@@ -14,7 +14,7 @@ let Main = () => {
                         Frontend Developer
                     </p>
                     <div className={s.conteinerContactMe}>
-                        <a href="" className={s.contactMe}>Contact Me</a>
+                        <a href="https://t.me/CHES7777" className={s.contactMe}>Contact Me</a>
                     </div>
                 </div>
             </div>

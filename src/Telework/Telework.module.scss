@@ -3,7 +3,9 @@
 
 .teleworkBlock {
   background-color: $backgroundColor_Second;
-  min-height: 60vh;
+  min-height: 75vh;
+  padding-bottom: 75px;
+
 
   .teleworkContainer {
     //align-items: center;
@@ -11,6 +13,8 @@
     //justify-content: space-around;
     //height: 30%;
     background-color: $backgroundColor_Second;
+    //padding-top: 50px;
+
 
     .title {
       display: flex;
@@ -97,6 +101,12 @@
       &:hover::after {
         height: 100%;
         width: 100%;
+      }
+
+      a {
+        text-decoration: none;
+        font: 400 14px/1.2 'Montserrat', sans-serif;
+        color: #fff;
       }
     }
   }
