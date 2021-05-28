@@ -11,7 +11,6 @@ const initialState = {
 export const FormReducer = (state = initialState, action) => {
     switch (action.type) {
         case "form/SET-MESSAGE":
-            debugger
             return {
                 ...state,
                 name: action.name,
@@ -19,7 +18,6 @@ export const FormReducer = (state = initialState, action) => {
                 message: action.message
             }
         case "form/SET-ERROR-TEXT":
-            debugger
             return {
                 ...state,
                 errorText: state.errorText
@@ -39,12 +37,10 @@ export const setErrorText = (errorText) =>
 export const sendMessage = (name, email, message) => async (dispatch) => {
 
     // dispatch(setAppStatusAC("loading..."));
-debugger
     try {
         await API.sendMessage(name, email, message);
         dispatch(setMessage(name, email, message));
     } catch (error) {
-        debugger
         dispatch(setErrorText(error.errorText))
     }
     // dispatch(setAppStatusAC("idle"));

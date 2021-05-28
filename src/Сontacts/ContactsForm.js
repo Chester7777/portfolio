@@ -12,7 +12,6 @@ export const ContactsForm = () => {
     const [message, setMessage] = useState("");
 
     const onClickBtnForm = () => {
-        debugger
         dispatch(sendMessage(name, email, message))
     }
 
