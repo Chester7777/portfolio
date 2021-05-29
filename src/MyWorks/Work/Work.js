@@ -9,7 +9,7 @@ let Work = (props) => {
             {/*<meta charset="utf-8"/>*/}
             <a href={props.href}>
             <div className={s.icon} style={props.style}>
-                <a href="" className={s.link}>LOOK</a>
+                <a href={props.href} className={s.link}>LOOK</a>
             </div>
             <div className={s.workInfo}>
                 <h3 className={s.workTitle}>{props.title}</h3>

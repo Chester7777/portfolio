@@ -36,7 +36,7 @@ let MyWorks = () => {
                     <Work style={socialNetwork} title={"TODOLIST 2"} description={TODOLIST2}
                           href="https://chester7777.github.io/NewToDoForDay_JS/"/>
                     <Work style={socialNetwork} title={"PORTFOLIO"} description={PORTFOLIO}
-                          href="https://chester7777.github.io/portfolio/"/>
+                          href="https://github.com/Chester7777/portfolio"/>
                     <Work style={socialNetwork} title={"CARDS"} description={CARDS}
                           href="https://highhack.github.io/404"/>
                 </div>
