@@ -35,13 +35,12 @@ export const setErrorText = (errorText) =>
 
 // thunks
 export const sendMessage = (name, email, message) => async (dispatch) => {
-
     // dispatch(setAppStatusAC("loading..."));
     try {
         await API.sendMessage(name, email, message);
         dispatch(setMessage(name, email, message));
     } catch (error) {
-        dispatch(setErrorText(error.errorText))
+        dispatch(setErrorText("the form is filled out incorrectly"))
     }
     // dispatch(setAppStatusAC("idle"));
 };
