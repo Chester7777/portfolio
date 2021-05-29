@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.eba8e6dd.chunk.css",
-    "main.js": "/portfolio/static/js/main.cb96c565.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.cb96c565.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.fd7060b0.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.fd7060b0.js.map",
-    "static/js/2.ec63326e.chunk.js": "/portfolio/static/js/2.ec63326e.chunk.js",
-    "static/js/2.ec63326e.chunk.js.map": "/portfolio/static/js/2.ec63326e.chunk.js.map",
-    "static/js/3.efcf2487.chunk.js": "/portfolio/static/js/3.efcf2487.chunk.js",
-    "static/js/3.efcf2487.chunk.js.map": "/portfolio/static/js/3.efcf2487.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.9e48f3dc.chunk.css",
+    "main.js": "/portfolio/static/js/main.85c7e5d5.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.85c7e5d5.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.a253efc1.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.a253efc1.js.map",
+    "static/js/2.b30b9e05.chunk.js": "/portfolio/static/js/2.b30b9e05.chunk.js",
+    "static/js/2.b30b9e05.chunk.js.map": "/portfolio/static/js/2.b30b9e05.chunk.js.map",
+    "static/js/3.4542a197.chunk.js": "/portfolio/static/js/3.4542a197.chunk.js",
+    "static/js/3.4542a197.chunk.js.map": "/portfolio/static/js/3.4542a197.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.eba8e6dd.chunk.css.map": "/portfolio/static/css/main.eba8e6dd.chunk.css.map",
-    "static/js/2.ec63326e.chunk.js.LICENSE.txt": "/portfolio/static/js/2.ec63326e.chunk.js.LICENSE.txt",
+    "static/css/main.9e48f3dc.chunk.css.map": "/portfolio/static/css/main.9e48f3dc.chunk.css.map",
+    "static/js/2.b30b9e05.chunk.js.LICENSE.txt": "/portfolio/static/js/2.b30b9e05.chunk.js.LICENSE.txt",
     "static/media/Main.module.scss": "/portfolio/static/media/photo_6.2626e9f5.jpg",
     "static/media/socialNetwork.d5fb5538.jpg": "/portfolio/static/media/socialNetwork.d5fb5538.jpg",
     "static/media/todoImage.14a95a0d.jpg": "/portfolio/static/media/todoImage.14a95a0d.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.fd7060b0.js",
-    "static/js/2.ec63326e.chunk.js",
-    "static/css/main.eba8e6dd.chunk.css",
-    "static/js/main.cb96c565.chunk.js"
+    "static/js/runtime-main.a253efc1.js",
+    "static/js/2.b30b9e05.chunk.js",
+    "static/css/main.9e48f3dc.chunk.css",
+    "static/js/main.85c7e5d5.chunk.js"
   ]
 }
