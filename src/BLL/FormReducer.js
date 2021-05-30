@@ -11,6 +11,7 @@ const initialState = {
 export const FormReducer = (state = initialState, action) => {
     switch (action.type) {
         case "form/SET-MESSAGE":
+            debugger
             return {
                 ...state,
                 name: action.name,
@@ -18,6 +19,7 @@ export const FormReducer = (state = initialState, action) => {
                 message: action.message
             }
         case "form/SET-ERROR-TEXT":
+            debugger
             return {
                 ...state,
                 errorText: state.errorText
@@ -34,13 +36,15 @@ export const setErrorText = (errorText) =>
     ({type: "form/SET-ERROR-TEXT", errorText});
 
 // thunks
-export const sendMessage = (name, email, message) => async (dispatch) => {
+export const sendMessageTC = (...payload) => async (dispatch) => {
     // dispatch(setAppStatusAC("loading..."));
+    debugger
     try {
-        await API.sendMessage(name, email, message);
-        dispatch(setMessage(name, email, message));
+        await API.sendMessage(payload[0], payload[1], payload[2]);
+        dispatch(setMessage(payload.name, payload.email, payload.message));
     } catch (error) {
-        dispatch(setErrorText("the form is filled out incorrectly"))
+        debugger
+        dispatch(setErrorText(payload.error))
     }
     // dispatch(setAppStatusAC("idle"));
 };

@@ -9,10 +9,6 @@
   padding-right: 100px;
   scroll-behavior: smooth;
 
-  //.primaryColor {
-  //  color: $textColor_Primary;
-  //}
-
   &.menu :hover, .active {
     color: $textColor_Primary;
     background-color: transparent !important;
@@ -20,5 +16,9 @@
 
   a {
     color: $textColor_h3;
+  }
+
+  @media screen and (max-width: 400px) {
+    display: none;
   }
 }

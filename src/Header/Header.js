@@ -1,6 +1,7 @@
 import React from "react"
 import s from "./Header.module.scss"
 import Nav from "../Nav/Nav";
+import BurgerNav from "../BurgerNav/BurgerNav";
 
 
 let Header = () => {
@@ -12,6 +13,7 @@ let Header = () => {
                 end
             </a>
             <Nav/>
+            <BurgerNav />
         </div>
     )
 }

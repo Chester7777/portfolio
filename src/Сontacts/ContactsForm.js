@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import s from "./Сontacts.module.scss";
 import {useDispatch} from "react-redux";
-import {sendMessage} from "../BLL/FormReducer";
+import {sendMessageTC} from "../BLL/FormReducer";
 
 
 export const ContactsForm = () => {
@@ -12,7 +12,7 @@ export const ContactsForm = () => {
     const [message, setMessage] = useState("");
 
     const onClickBtnForm = () => {
-        dispatch(sendMessage(name, email, message))
+        dispatch(sendMessageTC(name, email, message))
     }
 
     const onChangeName = (e) => {
@@ -26,7 +26,7 @@ export const ContactsForm = () => {
     }
 
     return <div className={s.contactsContainer}>
-        <form action="" className={s.form}>
+        <form className={s.form}>
             <div className={s.form_group}>
                 <div>
                     <input

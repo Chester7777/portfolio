@@ -25,10 +25,11 @@
     display: flex !important;
     flex-basis: auto;
     flex-grow: 1;
-    padding-left: 200px;
+    padding-left: 10%;
 
     .primaryColor {
       color: $textColor_Primary;
+      //z-index: 10;
     }
 
 
