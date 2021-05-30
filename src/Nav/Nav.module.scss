@@ -12,6 +12,7 @@
   &.menu :hover, .active {
     color: $textColor_Primary;
     background-color: transparent !important;
+    cursor: pointer;
   }
 
   a {

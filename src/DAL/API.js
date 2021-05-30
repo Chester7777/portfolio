@@ -2,13 +2,12 @@ import axios from "axios"
 
 const instance = axios.create({
     // baseURL: "http://localhost:3010/",
-    baseURL: "https://smtp-nodejsserver.herokuapp.com/",
-    withCredentials: true
+    baseURL: "https://smtp-nodejsserver.herokuapp.com/"
 })
 
 // api
 export const API = {
-    sendMessage(...payload) {
-        return instance.post(`sendMessage`, {...payload})
+    sendMessage(name, email, message, ...data) {
+        return instance.post(`sendMessage`, {name, email, message, ...data});
     },
 }
