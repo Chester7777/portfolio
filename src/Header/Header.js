@@ -9,8 +9,8 @@ let Header = () => {
     return (
         <div className={s.header}>
             <a className={s.navbarBrand} href="#">
-                <span className={s.primaryColor}>Fri</span>
-                end
+                <span className={s.primaryColor}>Port</span>
+                folio
             </a>
             <Nav/>
             <BurgerNav />

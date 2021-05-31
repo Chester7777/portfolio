@@ -7,7 +7,8 @@ export let BurgerNav = () => {
 
     let [menuIsOpen, setMenuIsOpen] = useState(false);
 
-    const onBurgerBtnClick = () => {
+    const onBurgerBtnClick = (e) => {
+        e.preventDefault();
         setMenuIsOpen(!menuIsOpen);
     }
 
@@ -23,7 +24,7 @@ export let BurgerNav = () => {
                 <Link offset={0} to="contacts" activeClass={s.active} spy={true} smooth={true}>Contacts</Link>
             </div>
             <div onClick={onBurgerBtnClick} className={s.burgerBtn}>
-                <span className={s.spanBurger}></span>
+                <span className={!menuIsOpen ? s.spanBurgerBtn : `${s.spanBurgerBtn} ${s.spanBtn_active}`}></span>
             </div>
         </div>
     )
