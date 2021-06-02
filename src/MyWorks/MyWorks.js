@@ -3,14 +3,10 @@ import styleContainer from "../Common/Styles/StyleContainer.module.scss";
 import s from "./MyWorks.module.scss";
 import Work from "./Work/Work";
 import TitleMy from "../Common/Components/Title/Title";
-import todoImage from "../assets/image/todoImage.jpg";
 import socialNetworkImage from "../assets/image/socialNetwork.jpg";
 
 let MyWorks = () => {
 
-    // const todo = {
-    //     backgroundImage: `url(${todoImage})`
-    // };
     const socialNetwork = {
         backgroundImage: `url(${socialNetworkImage})`
     };
