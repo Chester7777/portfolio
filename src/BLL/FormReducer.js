@@ -1,12 +1,12 @@
 import {API} from "../DAL/API";
 
-
 const initialState = {
     name: "",
     email: "",
     message: "",
     errorText: "the form is filled out incorrectly",
 }
+
 
 export const FormReducer = (state = initialState, action) => {
     switch (action.type) {
