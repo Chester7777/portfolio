@@ -11,7 +11,8 @@ export const ContactsForm = () => {
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState("");
 
-    const onClickBtnForm = () => {
+    const onClickBtnForm = (event) => {
+        event.preventDefault()
         dispatch(sendMessageTC(name, email, message))
     }
 

@@ -20,7 +20,7 @@ export const FormReducer = (state = initialState, action) => {
         case "form/SET-ERROR-TEXT":
             return {
                 ...state,
-                errorText: state.errorText
+                errorText: action.errorText
             }
         default:
             return state

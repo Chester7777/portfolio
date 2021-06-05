@@ -7,7 +7,7 @@ const instance = axios.create({
 
 // api
 export const API = {
-    sendMessage(name, email, message, ...data) {
-        return instance.post(`sendMessage`, {name, email, message, ...data});
+    sendMessage(name, email, message, errorText) {
+        return instance.post(`sendMessage`, {name, email, message, errorText});
     },
 }
