@@ -8,10 +8,10 @@ let Header = () => {
 
     return (
         <div className={s.header}>
-            <a className={s.navbarBrand} href="#">
+            <div className={s.navbarBrand}>
                 <span className={s.primaryColor}>Port</span>
                 folio
-            </a>
+            </div>
             <Nav/>
             <BurgerNav />
         </div>

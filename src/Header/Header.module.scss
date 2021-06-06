@@ -34,7 +34,9 @@
       //z-index: 10;
     }
   }
-  @media (max-width: 768px) {
-    max-width: 720px;
+  @media (min-width: 800px) {
+    //max-width: 720px;
+    width: 100%;
+    float: none;
   }
 }
