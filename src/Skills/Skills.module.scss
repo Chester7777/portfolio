@@ -5,23 +5,27 @@
   background-color: $backgroundColor_Second;
 
   .skillsContainer {
-    display: flex;
+    //display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: flex-start;
-    min-width: 80%;
+    //min-width: 80%;
+
+    @media (max-width: 350px) {
+     margin-left: 0;
+    }
 
 
     .skills {
       //border: 1px solid;
       background-color: $backgroundColor_Second;
-      min-width: 80%;
+      //min-width: 80%;
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
-      @media screen and (max-width: 630px) {
-        justify-content: center;
 
+      @media screen and (max-width: 760px) {
+        justify-content: center;
       }
 
       .title {
@@ -29,6 +33,7 @@
       }
     }
   }
+
 }
 
 
