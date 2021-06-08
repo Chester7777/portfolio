@@ -11,6 +11,12 @@
     position: relative;
     padding-block: -3em;
 
+    //@media (max-width: 920px){
+    //  justify-content: center;
+    //}
+
+
+
     address {
       margin-bottom: 1rem;
       font-style: normal;
@@ -19,7 +25,9 @@
       .contact {
         display: flex;
         flex-direction: column;
-        margin: 2.3em 0;
+        margin: 2.3em;
+
+
 
         &.contact span {
           display: flex;
@@ -62,10 +70,11 @@
         justify-content: space-around;
 
         .form_group {
+          //display: flex;
           margin-bottom: 1rem;
 
           .form_control {
-            width: 100%;
+            width: 80%;
             padding: 0.6em 1em;
             letter-spacing: 1px;
             border-radius: 0;
@@ -76,6 +85,8 @@
             font-family: 'Montserrat', sans-serif;
             cursor: inherit;
             outline: $textColor_Span;
+            //justify-content: start;
+
 
             &.form_control:focus {
               border: 1px solid rgba(255, 255, 255, 0.1);
@@ -110,6 +121,15 @@
         border: 1px solid rgba(255, 255, 255, 0.15);
         -webkit-transition: all .2s ease-in-out;
         transition: all .2s ease-in-out;
+        margin-left: 48px;
+        //justify-content: start;
+
+        @media (max-width: 920px){
+            margin-bottom: 20px;
+          margin-left: 0;
+            //justify-content: center;
+            //position: center;
+        }
 
         &.submitBtn:hover {
           color: white;

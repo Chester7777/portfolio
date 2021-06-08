@@ -22,6 +22,8 @@
   margin-inline-start: 0;
   margin-inline-end: 0;
 
+
+
   @media (max-width: 757px) {
     padding-left: 0;
     justify-content: center;
@@ -52,6 +54,13 @@
 
   h2 {
     margin: 0;
+
+    //@media (max-width: 767.98px){
+    //::before {
+    //  height: 3px;
+    //  bottom: -7px;
+    //}
+    //}
 
     .primaryColor {
       color: $textColor_Primary;

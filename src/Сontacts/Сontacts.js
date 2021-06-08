@@ -11,14 +11,11 @@ const Сontacts = () => {
         <TitleMe text={"Contact "} textMe={"Me"}/>
         <div className={`${styleContainer.container} ${s.containerForm}`}>
             <div>
-
                 <address>
                     <div className={s.contact}>
-                        <i id={s.map_marker_alt}  className="fa fa-map-marker" aria-hidden="true"></i>
-
+                        <i id={s.map_marker_alt} className="fa fa-map-marker" aria-hidden="true"></i>
                         <span>Address :</span>
                         <p>220013, Yakub Kolas, Minsk, Belarus</p>
-
                     </div>
                     <div className={s.contact}>
                         <i id={s.map_marker_alt} className="fa fa-phone" aria-hidden="true"></i>
@@ -33,7 +30,7 @@ const Сontacts = () => {
                 </address>
 
             </div>
-            <ContactsForm />
+            <ContactsForm/>
             {/*<div className={s.contactsContainer}>*/}
             {/*    <form action="" className={s.form}>*/}
             {/*        <div className={s.form_group}>*/}

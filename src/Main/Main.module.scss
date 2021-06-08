@@ -4,7 +4,7 @@
 .mainBlock {
   left: 0;
   right: 0;
-  width: 100%;
+  min-width: 100%;
   height: 100vh;
   z-index: 1;
   background-position: center;
@@ -13,6 +13,28 @@
   background-attachment: fixed;
   background-image: url("../assets/image/photo_6.jpg");
   background-color: rgba(30, 30, 30, 1);
+
+  @media (max-width: 990px) {
+    background-size: 50vh 100%;
+    //background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    }
+
+  //@media (max-width: 800px) {
+  //  .container {
+  //    //max-width: 720px;
+  //    min-width: 100%;
+  //    align-items: center;
+  //  }
+  //}
+
+  //@media only screen and (max-width: 480px) {
+  //  background-size: 30vh 100%;
+  //  //background-size: cover;
+  //  background-position: center center;
+  //  background-attachment: fixed;
+  //  }
 
   //-webkit-box-shadow: inset 0 0 0 3000px rgba(30 30 30 / 80%);
   //box-shadow: inset 0 0 0 3000px rgba(30 30 30 / 80%);
@@ -50,13 +72,17 @@
       text-shadow: 8px 0 1px rgba(255, 255, 255, 0.1);
       -webkit-transform: translate(-50%, -20%);
 
-      //@media (max-width: 680px) {
-      //  //padding-left: 5%;
-      //  font-size: 6vh;
-      //}
-      //@media (max-width: 450px) {
-      //  font-size: 4vh;
-      //}
+      @media (max-width: 990px) {
+        //padding-left: 5%;
+        font-size: 7vh;
+      }
+      @media (max-width: 680px) {
+        //padding-left: 5%;
+        font-size: 6vh;
+      }
+      @media (max-width: 450px) {
+        font-size: 4vh;
+      }
     }
 
     .textRun {
@@ -65,6 +91,14 @@
       color: $textColor_h2;
       margin-top: 120px;
       margin-bottom: 1rem;
+
+      @media (max-width: 680px) {
+        //padding-left: 5%;
+        font-size: 3.5vh;
+      }
+      //@media (max-width: 450px) {
+      //  font-size: 1vh;
+      //}
 
       .primaryColor {
         color: $textColor_Primary;
@@ -110,6 +144,15 @@
         border: 1px solid rgba(255, 255, 255, 0.15);
         -webkit-box-shadow: 0 0 0 !important;
         -webkit-transition: all .2s ease-in-out;
+
+        @media (max-width: 680px) {
+          //padding-left: 5%;
+          font-size: 2vh;
+        }
+        @media (max-width: 320px) {
+          //padding-left: 5%;
+          font-size: 1.5vh;
+        }
 
         &.contactMe:hover {
           border: 2px solid $textColor_Primary;

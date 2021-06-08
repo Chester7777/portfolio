@@ -12,8 +12,10 @@ export const ContactsForm = () => {
     const [message, setMessage] = useState("");
 
     const onClickBtnForm = (event) => {
-        event.preventDefault()
-        dispatch(sendMessageTC(name, email, message))
+        event.preventDefault();
+        const form = event.target;
+        dispatch(sendMessageTC(name, email, message));
+        form.reset();
     }
 
     const onChangeName = (e) => {
@@ -27,7 +29,7 @@ export const ContactsForm = () => {
     }
 
     return <div className={s.contactsContainer}>
-        <form className={s.form}>
+        <form className={s.form} onSubmit={onClickBtnForm}>
             <div className={s.form_group}>
                 <div>
                     <input
@@ -47,6 +49,7 @@ export const ContactsForm = () => {
                         type="Email"
                         className={s.form_control}
                         placeholder="Email"
+                        name="Email"
                         onChange={onChangeEmail}
                     />
                 </div>
@@ -70,7 +73,6 @@ export const ContactsForm = () => {
                     <button
                         type="submit"
                         className={s.submitBtn}
-                        onClick={onClickBtnForm}
                     >SEND
                     </button>
                 </div>
