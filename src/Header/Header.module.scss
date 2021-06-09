@@ -7,7 +7,7 @@
   z-index: 999999;
   right: 0;
   left: 0;
-  justify-content: flex-end;
+  //justify-content: flex-end;
   align-items: center;
   flex-wrap: wrap;
   min-height: 80px;
@@ -23,7 +23,7 @@
     font-size: 1.6em;
     font-weight: 900;
     color: $textColor_h2;
-    display: flex !important;
+    display: flex;
     flex-basis: auto;
     flex-grow: 1;
     padding-left: 10%;
