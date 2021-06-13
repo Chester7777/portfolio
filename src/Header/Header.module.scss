@@ -7,9 +7,10 @@
   z-index: 999999;
   right: 0;
   left: 0;
-  //justify-content: flex-end;
+  //flex-direction: row;
+  //justify-content: start;
   align-items: center;
-  flex-wrap: wrap;
+  //flex-wrap: wrap;
   min-height: 80px;
   background-color: $transparent_Background_Color;
 

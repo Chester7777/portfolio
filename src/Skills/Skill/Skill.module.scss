@@ -17,10 +17,15 @@
   margin: 30px 20px 50px;
   flex: 0 0 50%;
 
-  @media (max-width:320px) {
-  margin: 30px 32px 50px;
+  @media (max-width: 320px) {
+    margin: 32px 30px 50px;
+    //justify-content: center;
+    //align-items: center;
+  }
+  @media (max-width: 280px) {
+    margin: 30px 10px 50px;
+  }
 
-}
   .title {
     color: #ccc;
   }
