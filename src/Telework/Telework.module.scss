@@ -6,6 +6,10 @@
   min-height: 75vh;
   padding-bottom: 75px;
 
+  @media (max-width: 1024px) {
+    min-height: 0;
+  }
+
 
   .teleworkContainer {
     //align-items: center;

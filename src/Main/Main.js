@@ -13,7 +13,7 @@ let Main = () => {
                         <span className={s.primaryColor}>I`am </span>
                         Frontend Developer
                     </p>
-                    <div className={s.conteinerContactMe}>
+                    <div className={s.containerContactMe}>
                         <a href="#footer" className={s.contactMe}>Contact Me</a>
                     </div>
                 </div>

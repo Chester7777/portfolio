@@ -15,9 +15,12 @@
   //margin-top: 30px;
   //margin-bottom: 50px;
   margin: 30px 20px 50px;
-
   flex: 0 0 50%;
 
+  @media (max-width:320px) {
+  margin: 30px 32px 50px;
+
+}
   .title {
     color: #ccc;
   }
