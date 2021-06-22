@@ -177,20 +177,29 @@
     //justify-content: space-between;
     //align-items: center;
     //flex-wrap: nowrap;
-    transform: translate(0, 0);
-    height: 150px;
-    //top: 8px;
 
-    position: fixed;
+    //top: 8px;
     //inset: 0;
+    //transform: translate(0, 0);
+    height: 150px;
+    position: fixed;
     top: 120px;
     right: 0px;
     bottom: 0px;
     left: 0px;
     //transition: 0.7s;
-
+    animation: menuFromTop 0.7s;
   }
 
 
 
+}
+
+@keyframes menuFromTop {
+  from {
+    transform: translateY(-150px);
+  }
+  to {
+    transform: translateY(0);
+  }
 }
