@@ -190,12 +190,17 @@
     //transition: 0.7s;
     animation: menuFromTop 0.7s;
   }
-
-
-
 }
 
 @keyframes menuFromTop {
+  from {
+    transform: translateY(-150px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+@-webkit-keyframes menuFromTop {
   from {
     transform: translateY(-150px);
   }
