@@ -7,13 +7,9 @@
   z-index: 999999;
   right: 0;
   left: 0;
-  //flex-direction: row;
-  //justify-content: start;
   align-items: center;
-  //flex-wrap: wrap;
   min-height: 80px;
   background-color: $transparent_Background_Color;
-
 
   width: 100%;
   padding-right: 15px;
@@ -32,11 +28,10 @@
 
     .primaryColor {
       color: $textColor_Primary;
-      //z-index: 10;
     }
   }
+
   @media (min-width: 800px) {
-    //max-width: 720px;
     width: 100%;
     float: none;
   }

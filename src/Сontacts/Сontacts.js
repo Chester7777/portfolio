@@ -70,7 +70,6 @@ const Сontacts = () => {
             {/*        <div>*/}
             {/*            <div>*/}
             {/*                <button type="submit" className={s.submitBtn}>SEND</button>*/}
-
             {/*            </div>*/}
             {/*        </div>*/}
             {/*    </form>*/}

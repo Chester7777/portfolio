@@ -2,15 +2,12 @@
 
 
 .burgerNav {
-  //width: 100%;
   height: 0;
-  //display: flex;
   position: fixed;
-  //inset: 0;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 
 
   @media (min-width: 801px) {
@@ -18,23 +15,6 @@
   }
 
   .burgerNavItems {
-    //display: flex;
-    //flex-direction: column;
-    //justify-content: space-between;
-    //align-items: center;
-    //flex-wrap: nowrap;
-    //background-color: $transparent_Background_Color;
-    //scroll-behavior: smooth;
-    //position: absolute;
-    //top: -180px;
-    //right: 320px;
-    //left: 0;
-    //height: 0;
-    //padding: 20px;
-    //transform: translate(0, -150);
-    //transition: 0.7s;
-
-
     display: flex;
     flex-basis: 100%;
     flex-grow: 1;
@@ -42,30 +22,9 @@
     flex-direction: column;
     justify-content: center;
     background-color: rgba(30, 30, 30, 0.95);
-    /* scroll-behavior: smooth; */
-    /* position: absolute; */
-    /* top: -180px; */
-    /* right: 320px; */
-    /* left: 0; */
-    ///* height: 0; */
-    /* padding: 20px; */
     transform: translate(0, -150);
     transition: 0.7s;
     margin: -120px;
-
-
-    //display: flex;
-    //  flex-basis: 100%;
-    //  flex-grow: 1;
-    //  align-items: center;
-    //flex-direction: column;
-    //justify-content: space-between;
-    //background-color: rgba(30, 30, 30, 0.95);
-    //scroll-behavior: smooth;
-    //position: absolute;
-    //top: -180px;
-    //transform: translate(0, -150);
-    //transition: 0.7s;
 
     &.burgerNav :hover, .active {
       color: $textColor_Primary;
@@ -90,8 +49,6 @@
     line-height: 1;
     position: absolute;
     top: 14px;
-    //left: 300px;
-    //right: 40%;
     border: 1px solid $textColor_Span;
     cursor: pointer;
     border-radius: 5px;
@@ -152,22 +109,12 @@
   }
 
   .show {
-    //display: flex;
-    //flex-direction: column;
-    //justify-content: space-between;
-    //align-items: center;
-    //flex-wrap: nowrap;
-
-    //top: 8px;
-    //inset: 0;
-    //transform: translate(0, 0);
     height: 150px;
     position: fixed;
     top: 120px;
     right: 0;
     bottom: 0;
     left: 0;
-    //transition: 0.7s;
     animation: menuFromTop 0.7s;
   }
 }
