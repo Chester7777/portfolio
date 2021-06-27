@@ -99,34 +99,16 @@
     border-radius: 5px;
 
     @media  (max-width: 801px) {
-      //display: flex;
-      //justify-content: end;
       right: 80px;
     }
     @media  (max-width: 540px) {
-      //display: flex;
-      //justify-content: end;
-      //right: 24%;
+      right: 50px;
     }
     @media  (max-width: 420px) {
-      //display: flex;
-      //justify-content: end;
-      //right: 34%;
-    }
-    @media  (max-width: 376px) {
-      //display: flex;
-      //justify-content: end;
-      //right: 40%;
-    }
-    @media  (max-width: 320px) {
-      //display: flex;
-      //justify-content: end;
-      right: 70px;
+      right: 40px;
     }
     @media  (max-width: 280px) {
-      //display: flex;
-      //justify-content: end;
-      right: 90px;
+      right: 24px;
     }
 
 
