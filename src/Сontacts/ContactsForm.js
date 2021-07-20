@@ -12,10 +12,10 @@ export const ContactsForm = () => {
     const [message, setMessage] = useState("");
 
     const onClickBtnForm = (event) => {
-        event.preventDefault();
+        event.preventDefault()
         const form = event.target;
-        dispatch(sendMessageTC(name, email, message));
-        form.reset();
+        dispatch(sendMessageTC(name, email, message))
+        form.reset()
     }
 
     const onChangeName = (e) => {
