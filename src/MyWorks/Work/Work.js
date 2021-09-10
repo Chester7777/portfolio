@@ -6,7 +6,6 @@ let Work = (props) => {
 
     return (
         <div className={s.work}>
-            {/*<meta charset="utf-8"/>*/}
             <a href={props.href}>
             <div className={s.icon} style={props.style}>
                 <a href={props.href} className={s.link}>LOOK</a>
