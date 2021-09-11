@@ -34,7 +34,7 @@ let MyWorks = () => {
                     <Work style={socialNetwork} title={"TODOLIST 2"} description={TODOLIST2}
                           href="https://chester7777.github.io/NewToDoForDay_JS/"/>
                     <Work style={socialNetwork} title={"CATALOG_FILMS"} description={CATALOG_FILMS}
-                          href="https://chester7777.github.io/Catalog-films-TZ/"/>
+                          href="https://chester7777.github.io/catalog-films-TZ/"/>
                     <Work style={socialNetwork} title={"CARDS"} description={CARDS}
                           href="https://chester7777.github.io/learning_Cards/"/>
                 </div>
