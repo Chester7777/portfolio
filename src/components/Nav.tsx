@@ -6,7 +6,7 @@ const LINKS = [
   { id: 'experience', label: 'Experience' },
   { id: 'work', label: 'Work' },
   { id: 'skills', label: 'Skills' },
-  { id: 'projects', label: 'Projects' },
+  { id: 'projects', label: 'Freelance' },
   { id: 'contact', label: 'Contact' },
 ];
 
@@ -34,7 +34,7 @@ export function Nav(): JSX.Element {
       transition={{ duration: 0.6, delay: 0.2 }}
     >
       <a className="nav__logo" href="#top" onClick={() => setOpen(false)}>
-        EC<span>.</span>
+        Evgeny Chausov<span>.</span>
       </a>
       <button
         type="button"

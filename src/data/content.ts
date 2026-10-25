@@ -98,49 +98,34 @@ export const caseStudies: CaseStudy[] = [
   },
 ];
 
-export interface PetProject {
+export interface FreelanceProject {
   title: string;
+  client: string;
   text: string;
-  href: string;
+  image: string;
+  live: string;
+  code: string;
   tags: string[];
 }
 
-export const petProjects: PetProject[] = [
+export const freelance: FreelanceProject[] = [
   {
-    title: 'Social Network',
-    text: 'My largest learning project: profiles, users, pagination, auth.',
-    href: 'https://chester7777.github.io/sn-ts-example/',
-    tags: ['React', 'Redux', 'TypeScript'],
+    title: 'Lumière',
+    client: 'Premium beauty salon',
+    text: 'One-page site in dark tones with smooth motion: services, gallery, about and booking sections.',
+    image: 'img/lumiere.jpg',
+    live: 'https://chester7777.github.io/Beauty-site/',
+    code: 'https://github.com/Chester7777/Beauty-site',
+    tags: ['React 18', 'TypeScript', 'styled-components', 'Framer Motion', 'Vite'],
   },
   {
-    title: 'Films Catalog',
-    text: 'Catalog with search, pagination and reusable components.',
-    href: 'https://chester7777.github.io/catalog-films-TZ/',
-    tags: ['React', 'TypeScript', 'REST API'],
-  },
-  {
-    title: 'Todolist',
-    text: 'Task manager on Redux Toolkit best practices.',
-    href: 'https://chester7777.github.io/todolist_16/',
-    tags: ['Redux Toolkit', 'TypeScript'],
-  },
-  {
-    title: 'Learning Cards',
-    text: 'Flash-card app for studying.',
-    href: 'https://chester7777.github.io/learning_Cards/',
-    tags: ['React', 'Redux'],
-  },
-  {
-    title: 'Currency Converter',
-    text: 'Converts currencies with live rates.',
-    href: 'https://chester7777.github.io/Converter/',
-    tags: ['React', 'Redux'],
-  },
-  {
-    title: 'Day Planner',
-    text: 'Colorful to-do app in plain React.',
-    href: 'https://chester7777.github.io/NewToDoForDay_JS/',
-    tags: ['JavaScript', 'React'],
+    title: 'Iryna Harelik',
+    client: 'Business change consultant',
+    text: 'Landing page built from a Figma design: services, approach, contacts and a privacy page; deployed with GitHub Actions.',
+    image: 'img/harelik.jpg',
+    live: 'https://chester7777.github.io/dentistry/',
+    code: 'https://github.com/Chester7777/dentistry',
+    tags: ['HTML', 'CSS', 'JavaScript', 'Figma', 'GitHub Actions'],
   },
 ];
 

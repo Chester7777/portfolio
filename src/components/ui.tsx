@@ -40,11 +40,10 @@ export function Reveal({ children, delay = 0 }: { children: ReactNode; delay?: n
   );
 }
 
-export function SectionHeading({ index, title, lead }: { index: string; title: string; lead?: string }): JSX.Element {
+export function SectionHeading({ title, lead }: { title: string; lead?: string }): JSX.Element {
   return (
     <Reveal>
       <header className="section-heading">
-        <span className="section-index">{index}</span>
         <h2>{title}</h2>
         {lead && <p>{lead}</p>}
       </header>
