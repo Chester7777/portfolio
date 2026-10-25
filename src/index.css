@@ -345,7 +345,8 @@ p { margin: 0; }
 .case p { color: var(--muted); margin-bottom: 20px; transform: translateZ(20px); }
 
 .skills { display: grid; grid-template-columns: 1.1fr 1fr; gap: 32px; align-items: center; }
-.skills__sphere { height: 520px; }
+.skills > *, .about > *, .showcase > * { min-width: 0; }
+.skills__sphere { width: 100%; height: 520px; }
 .skills__groups { display: grid; gap: 16px; }
 .skill-group { padding: 22px; border: 1px solid var(--border); border-radius: var(--radius); background: var(--card); }
 .skill-group h3 { font-size: 18px; margin-bottom: 14px; }

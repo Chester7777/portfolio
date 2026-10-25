@@ -108,7 +108,7 @@ export function Skills({ reduced }: { reduced: boolean }): JSX.Element {
   useEffect(() => { if (visible) setMounted(true); }, [visible]);
   return (
     <section id="skills" className="section container">
-      <SectionHeading title="Skills" lead="Drag your cursor over the sphere." />
+      <SectionHeading title="Skills" lead="Move your cursor or finger across the sphere." />
       <div className="skills">
         <div className="skills__sphere" ref={ref} aria-hidden={true}>
           {mounted && (
