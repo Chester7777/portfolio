@@ -23,15 +23,16 @@ export function Hero({ reduced }: { reduced: boolean }): JSX.Element {
         >
           <span className="pulse" /> Open to new opportunities · {profile.location}
         </motion.p>
-        <h1 className="hero__title">
+        <h1 className="hero__title" aria-label={profile.name}>
           {profile.name.split(' ').map((word, i) => (
             <motion.span
+              aria-hidden={true}
               key={word}
               initial={{ opacity: 0, y: 60, rotateX: -60 }}
               animate={{ opacity: 1, y: 0, rotateX: 0 }}
               transition={{ duration: 0.9, delay: 0.4 + i * 0.15, ease: [0.22, 1, 0.36, 1] }}
             >
-              {word}
+              {word}{' '}
             </motion.span>
           ))}
         </h1>
