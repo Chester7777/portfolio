@@ -8,6 +8,8 @@ export const profile = {
     + 'billing flows and AI assistants that act inside the product.',
 };
 
+export const cvHref = `${import.meta.env.BASE_URL}Evgeny-Chausov-CV.pdf`;
+
 export const contacts = [
   { label: 'Telegram', value: '@CHES7777', href: 'https://t.me/CHES7777' },
   { label: 'Email', value: 'Es18.03.88@gmail.com', href: 'mailto:Es18.03.88@gmail.com' },

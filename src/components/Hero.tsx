@@ -1,6 +1,6 @@
 import { lazy, Suspense } from 'react';
 import { motion } from 'framer-motion';
-import { profile } from '../data/content';
+import { cvHref, profile } from '../data/content';
 
 const HeroScene = lazy(() => import('../three/HeroScene').then((m) => ({ default: m.HeroScene })));
 
@@ -72,6 +72,7 @@ export function Hero({ reduced }: { reduced: boolean }): JSX.Element {
         >
           <a className="btn btn--primary" href="#work">See my work</a>
           <a className="btn btn--ghost" href="#contact">Get in touch</a>
+          <a className="btn btn--ghost" href={cvHref} download={true}>Download CV</a>
         </motion.div>
       </div>
       <a className="hero__scroll" href="#about" aria-label="Scroll down">

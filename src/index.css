@@ -406,6 +406,7 @@ p { margin: 0; }
   transition: transform 0.2s, border-color 0.2s;
 }
 .contact__link:hover { transform: translateY(-4px); border-color: var(--accent); }
+.contact__cv { display: flex; justify-content: center; margin-top: 40px; }
 .contact__label { font-size: 13px; color: var(--accent); font-family: ui-monospace, Menlo, monospace; }
 .contact__value { font-weight: 600; word-break: break-all; }
 

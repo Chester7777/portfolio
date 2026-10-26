@@ -1,6 +1,6 @@
 import { lazy, Suspense, useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
-import { caseStudies, contacts, freelance, jobs, profile, skillGroups, sphereWords, stats } from '../data/content';
+import { caseStudies, contacts, cvHref, freelance, jobs, profile, skillGroups, sphereWords, stats } from '../data/content';
 import { Reveal, SectionHeading, Tags, TiltCard, useInView } from './ui';
 
 const SkillsSphere = lazy(() => import('../three/SkillsSphere').then((m) => ({ default: m.SkillsSphere })));
@@ -191,6 +191,11 @@ export function Contact(): JSX.Element {
           </Reveal>
         ))}
       </div>
+      <Reveal>
+        <div className="contact__cv">
+          <a className="btn btn--primary" href={cvHref} download={true}>Download CV (PDF)</a>
+        </div>
+      </Reveal>
     </section>
   );
 }
